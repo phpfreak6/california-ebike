@@ -1,0 +1,789 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-02-02 19:48+0530\n"
+"PO-Revision-Date: 2017-02-02 19:48+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/class-wf-admin-options.php:20
+msgid "Visual check of age"
+msgstr "Sichtkontrolle des Alters"
+
+#: includes/class-wf-admin-options.php:21
+msgid "Order recipient's age must be over 18"
+msgstr "Bestellen Empfängers Alter müssen über 18 sein"
+
+#: includes/class-wf-dhl-paket-woocommerce-shipping-admin-helper.php:111
+#: includes/class-wf-dhl-paket-woocommerce-shipping-admin-helper.php:188
+#: includes/class-wf-dhl-paket-woocommerce-shipping.php:178
+#: includes/class-wf-dhl-paket-woocommerce-shipping.php:255
+msgid "Product # is virtual. Skipping."
+msgstr "Produkt # ist virtuell. Skipping."
+
+#: includes/class-wf-dhl-paket-woocommerce-shipping-admin-helper.php:116
+#: includes/class-wf-dhl-paket-woocommerce-shipping.php:183
+msgid "Product # is missing weight. Aborting."
+msgstr "Produkt # fehlt Gewicht. Aborting."
+
+#: includes/class-wf-dhl-paket-woocommerce-shipping-admin-helper.php:210
+#: includes/class-wf-dhl-paket-woocommerce-shipping.php:277
+#, php-format
+msgid "Product #%s is missing dimensions. Aborting."
+msgstr "Produkt #%s fehlt Dimensionen. Aborting"
+
+#: includes/class-wf-dhl-paket-woocommerce-shipping-admin-helper.php:298
+#: includes/class-wf-dhl-paket-woocommerce-shipping-admin-helper.php:737
+#, php-format
+msgid "Product #%d is virtual. Skipping."
+msgstr "Produkt #%d ist virtuell. Skipping."
+
+#: includes/class-wf-dhl-paket-woocommerce-shipping-admin-helper.php:303
+#: includes/class-wf-dhl-paket-woocommerce-shipping-admin-helper.php:742
+#, php-format
+msgid "Product #%d is missing weight. Aborting."
+msgstr "Produkt #%d fehlt Gewicht. Aborting"
+
+#: includes/class-wf-dhl-paket-woocommerce-shipping-admin-helper.php:718
+#: includes/class-wf-dhl-paket-woocommerce-shipping-admin-helper.php:776
+msgid "Unexpected error while get package."
+msgstr "Unerwarteter Fehler während get -Paket."
+
+#: includes/class-wf-dhl-paket-woocommerce-shipping-admin-helper.php:728
+#: includes/class-wf-dhl-paket-woocommerce-shipping.php:438
+msgid ""
+"dhl debug mode is on - to hide these messages, turn debug mode off in the "
+"settings."
+msgstr ""
+"dhl Debug- Modus aktiv ist - diese Nachrichten zu verbergen , drehen Sie den "
+"Debug-Modus in den Einstellungen ausgeschaltet."
+
+#: includes/class-wf-dhl-paket-woocommerce-shipping-admin-helper.php:761
+#, php-format
+msgid "Order #%d: %s"
+msgstr "Bestellung #%d: %s"
+
+#: includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:84
+msgid "Back to Order"
+msgstr "Zurück zu bestellen"
+
+#: includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:262
+#: includes/class-wf-dhl-paket-woocommerce-shipping.php:12
+#: includes/class-wf-tracking-admin.php:196
+msgid "DHL Paket"
+msgstr "DHL Paket"
+
+#: includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:282
+#, php-format
+msgid ""
+"Error message: %s <br><b>At least one shipment have occurred an error, "
+"proceeding might loss some packages. Please Remove shipment and Create again."
+"</b>"
+msgstr ""
+"Fehlermeldung :%s <br><b>Mindestens eine Sendung haben ein Fehler "
+"aufgetreten ist, könnte Verlust einige Pakete fortfahren. Bitte entfernen "
+"Versand und erstellen wieder.</b>"
+
+#: includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:319
+#: includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:666
+msgid "Print Label"
+msgstr "Etikett drucken"
+
+#: includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:326
+msgid "Get Export Document"
+msgstr "Erhalten Sie Dokument exportieren"
+
+#: includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:334
+msgid "Do Manifest"
+msgstr "Haben Manifest"
+
+#: includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:335
+msgid ""
+"Before performing a \"Do Manifest\", Printing label is mandatory. Note : "
+"After manifest generation, labels will not be available for downloads."
+msgstr ""
+"Vor der Durchführung ist es, eine \" Do -Manifest \" , das Bedrucken von "
+"Etiketten obligatorisch. Hinweis: Nach dem Manifest Generation , Etiketten "
+"nicht für Downloads zur Verfügung."
+
+#: includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:364
+msgid "Clear History"
+msgstr "Verlauf löschen"
+
+#: includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:369
+msgid "Remove Shipment"
+msgstr "entfernen Versand"
+
+#: includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:378
+msgid "Step 1: Auto generate packages."
+msgstr "Schritt 1: Auto-Pakete erzeugen."
+
+#: includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:380
+msgid "Step 2: Initiate your shipment."
+msgstr "Schritt 2: Starten Sie Ihre Sendung."
+
+#: includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:382
+msgid "Include Return Label"
+msgstr "Fügen Sie Rückholservice"
+
+#: includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:384
+msgid "Cash On Delivery"
+msgstr "Nachnahme"
+
+#: includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:387
+msgid "Package(s)"
+msgstr "Paket (e)"
+
+#: includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:390
+msgid "Wt."
+msgstr "Wt."
+
+#: includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:391
+msgid "L"
+msgstr "L"
+
+#: includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:392
+msgid "W"
+msgstr "W"
+
+#: includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:393
+msgid "H"
+msgstr "H"
+
+#: includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:394
+msgid "Insur."
+msgstr "Insur."
+
+#: includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:413
+msgid "Add Package"
+msgstr "Paket hinzufügen"
+
+#: includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:417
+msgid "Create Shipment"
+msgstr "erstellen Versand"
+
+#: includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:468
+msgid "Generate Packages"
+msgstr "Generieren Pakete"
+
+#: includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:578
+#: includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:579
+msgid "Create DHL Paket Shipment"
+msgstr "Erstellen DHL Paket Versand"
+
+#: includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:581
+#: includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:582
+msgid "Void DHL Paket Shipment"
+msgstr "Void DHL Paket Versand"
+
+#: includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:599
+#, php-format
+msgid "Order #%d: Shipment generated sucessfully."
+msgstr "Bestellung #%d: Versand erfolgreich generiert."
+
+#: includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:602
+#, php-format
+msgid "Order #%d: Please remove existing shipments before creating new."
+msgstr ""
+"Bestellung #%d: Bitte entfernen Sie bestehende Sendungen, bevor neue zu "
+"schaffen."
+
+#: includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:607
+#: includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:624
+msgid "Please select atleast one order"
+msgstr "Bitte wählen Sie atleast einen Auftrag"
+
+#: includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:616
+#, php-format
+msgid "Order #%d: Shipment voided."
+msgstr "Bestellung #%d: Versand für ungültig erklärt."
+
+#: includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:619
+#, php-format
+msgid "Order #%d: No shipment is there to void."
+msgstr "Bestellung #%d: Kein Versand dort zu erlöschen."
+
+#: includes/class-wf-dhl-paket-woocommerce-shipping.php:13
+msgid "Print shipping labels via DHL Shipping API."
+msgstr "Drucken von Versandetiketten über DHL -API."
+
+#: includes/class-wf-dhl-paket-woocommerce-shipping.php:69
+msgid "DHL is enabled, but the origin postcode has not been set."
+msgstr ""
+"DHL ist aktiviert, aber der Ursprung Postleitzahl nicht festgelegt  wurde."
+
+#: includes/class-wf-packstation.php:66
+msgid "Select Packstation"
+msgstr "Wählen Sie Packstation"
+
+#: includes/class-wf-packstation.php:76
+msgid "Post Number"
+msgstr "Postnummer"
+
+#: includes/class-wf-packstation.php:77
+msgid "Post number for delivery to the packingstations"
+msgstr "Postnummer für die Lieferung an den Packstationen"
+
+#: includes/class-wf-packstation.php:104
+msgid "--Select Packstation--"
+msgstr "--Wählen Sie Packstation--"
+
+#: includes/class-wf-packstation.php:156
+#, php-format
+msgid "Packstation (%s) : "
+msgstr "Packstation (%s) :"
+
+#: includes/class-wf-tracking-admin.php:47
+msgid "Shipping Detail"
+msgstr "Versandinformationen"
+
+#: includes/class-wf-tracking-admin.php:89
+msgid "Shipment ID"
+msgstr "Shipment ID"
+
+#: includes/class-wf-tracking-admin.php:89
+msgid "Follow link for detailed status."
+msgstr "Folge Link für detaillierte Status."
+
+#: includes/class-wf-tracking-admin.php:90
+msgid "Status"
+msgstr "Status"
+
+#: includes/class-wf-tracking-admin.php:100
+msgid ""
+"Unable to update real time status at this point of time. Please follow the "
+"link on shipment id to check status."
+msgstr ""
+"zu diesem Zeitpunkt nicht in der Lage Echtzeit -Status zu aktualisieren . "
+"Bitte folgen Sie dem Link auf Sendung ID -Status zu überprüfen."
+
+#: includes/class-wf-tracking-admin.php:133
+msgid "Sorry, Unable to proceed."
+msgstr "Sorry, kann nicht fortgesetzt werden."
+
+#: includes/class-wf-tracking-admin.php:136
+msgid ""
+"Unable to track the shipment. Please cross check shipment id or try after "
+"some time."
+msgstr ""
+"Unfähig, die Sendung zu verfolgen . Bitte kreuzen Scheck Sendung ID oder "
+"versuchen, nach einiger Zeit."
+
+#: includes/class-wf-tracking-admin.php:145
+msgid "Tracking is unset."
+msgstr "Tracking ist nicht gesetzt."
+
+#: includes/class-wf-tracking-admin.php:148
+msgid "Tracking Data is reset to default."
+msgstr "Tracking-Daten wieder auf Standard."
+
+#: includes/class-wf-tracking-admin.php:193
+msgid "None"
+msgstr "Keiner"
+
+#: includes/class-wf-tracking-admin.php:200
+msgid "Enter Tracking IDs"
+msgstr "Geben Sie Tracking-IDs"
+
+#: includes/class-wf-tracking-admin.php:201
+msgid "Comma separated, in case of multiple shipment ids for this order."
+msgstr ""
+"Eine durch Kommata getrennte , im Falle mehrerer Sendung IDs für diesen "
+"Auftrag."
+
+#: includes/class-wf-tracking-admin.php:204
+msgid "This field is Optional."
+msgstr "Dieses Feld ist optional."
+
+#: includes/class-wf-tracking-admin.php:208
+msgid "Save/Show Tracking Info"
+msgstr "Speichern / Show Tracking-Informationen"
+
+#: includes/class-wf-tracking-admin.php:226
+msgid "You don't have admin privileges to view this page."
+msgstr "Sie haben keine Admin- Rechte, um diese Seite zu sehen."
+
+#: includes/class-wf-tracking-admin.php:253
+#: includes/track/class-wf-tracking-util.php:245
+msgid "Unable to update tracking info."
+msgstr "Kann nicht Tracking- Informationen zu aktualisieren."
+
+#: includes/data-wf-settings.php:28
+msgid "Account Number"
+msgstr "DHL Kundennummer + Produkt ID + Partner ID"
+
+#: includes/data-wf-settings.php:30 includes/data-wf-settings.php:50
+#: includes/data-wf-settings.php:59
+msgid "contact DHL."
+msgstr "Kontakt DHL."
+
+#: includes/data-wf-settings.php:34
+msgid "Return Billing Account Number"
+msgstr "DHL Konto für Retouren"
+
+#: includes/data-wf-settings.php:36
+msgid "Leave it blank if return label is not needed"
+msgstr "Leer lassen,  wenn keine reourenaufkleber benötigt werden"
+
+#: includes/data-wf-settings.php:40
+msgid "Production Key"
+msgstr "Liveumgebung aktivieren"
+
+#: includes/data-wf-settings.php:41
+msgid "This is a production key"
+msgstr "Es handlt sich um Live- und nicht Testzugangsdaten!"
+
+#: includes/data-wf-settings.php:45
+msgid ""
+"If this is a production API key and not a developer key, check this box."
+msgstr ""
+"Wenn dies eine Produktion API-Schlüssel ist und nicht ein "
+"Entwicklerschlüssel , aktivieren Sie dieses Feld."
+
+#: includes/data-wf-settings.php:48
+msgid "Site ID"
+msgstr "Site-ID"
+
+#: includes/data-wf-settings.php:57
+msgid "Site Password"
+msgstr "Website- Passwort"
+
+#: includes/data-wf-settings.php:66
+msgid "API User"
+msgstr "API Benutzer"
+
+#: includes/data-wf-settings.php:68
+msgid "Get API User from DHL and place here"
+msgstr "Erhalten API Benutzer von DHL und legen Sie hier"
+
+#: includes/data-wf-settings.php:75
+msgid "API key"
+msgstr "API-Schlüssel"
+
+#: includes/data-wf-settings.php:77
+msgid "Secret key for API."
+msgstr "Geben Sie hier das Benutzerpasswort des API Benutzers ein"
+
+#: includes/data-wf-settings.php:95
+msgid "Custom Shipment Message"
+msgstr "Individuelle Versandnachricht"
+
+#: includes/data-wf-settings.php:97
+msgid ""
+"Define your own shipment message. Use the place holder tags [ID], [SERVICE] "
+"and [DATE] for Shipment Id, Shipment Service and Shipment Date respectively. "
+"Leave it empty for default message.<br>"
+msgstr ""
+"Definieren Sie Ihre eigene Sendung Nachricht. Verwenden Sie die Platzhalter-"
+"Tags [ID], [SERVICE] und [DATUM] für Sendungs-ID, Versand-Service und "
+"Versanddatum sind. Lassen Sie es für Standard-Nachricht leer."
+
+#: includes/data-wf-settings.php:102
+msgid "Dimension/Weight Unit"
+msgstr "Größe & Gewicht in"
+
+#: includes/data-wf-settings.php:103
+msgid "This unit will be passed to DHL."
+msgstr "Diese Einheit wird an DHL übergeben  werden."
+
+#: includes/data-wf-settings.php:106
+msgid ""
+"Product dimensions and weight will be converted to the selected unit and "
+"will be passed to DHL. Please change the box dimensions and weight "
+"accordingly as its preloaded with unit Pound and Inches."
+msgstr ""
+"Produktgröße und Gewicht werden entsprechend dieser Einstellungen "
+"umgerechnet und an DHL übermittelt."
+
+#: includes/data-wf-settings.php:108
+msgid "Pounds & Inches"
+msgstr "Pounds & Inches"
+
+#: includes/data-wf-settings.php:109
+msgid "Kilograms & Centimetres"
+msgstr "Kilogramm & Zentimeter"
+
+#: includes/data-wf-settings.php:113
+msgid "Parcel Packing Method"
+msgstr "Paket Verpackungsmethode"
+
+#: includes/data-wf-settings.php:118
+msgid "Default: Pack items individually"
+msgstr "Standardverpackung: jedes Packet separat"
+
+#: includes/data-wf-settings.php:119
+msgid "Recommended: Pack into boxes with weights and dimensions"
+msgstr "Empfohlen: Verpackung nach Maßen und Gewichten"
+
+#: includes/data-wf-settings.php:120
+msgid "Weight based: Calculate shipping on the basis of order total weight"
+msgstr ""
+"Gewichtsangabe: Berechnen Versand auf der Grundlage, um das Gesamtgewicht"
+
+#: includes/data-wf-settings.php:122
+msgid "Determine how items are packed before being sent to DHL."
+msgstr ""
+"Ermitteln Sie, wie Produkte verpackt werden, bevor sie DHL gesendet werden."
+
+#: includes/data-wf-settings.php:125
+msgid "Box Maximum Weight"
+msgstr "Box Höchstgewicht"
+
+#: includes/data-wf-settings.php:130
+msgid "Maximum weight allowed for single box."
+msgstr "Höchstgewicht für einzelne Box erlaubt."
+
+#: includes/data-wf-settings.php:133
+msgid "Packing Process"
+msgstr "Verpackungsprozess"
+
+#: includes/data-wf-settings.php:138
+msgid "Pack heavier items first"
+msgstr "Packen erste schwerere Gegenstände"
+
+#: includes/data-wf-settings.php:139
+msgid "Pack lighter items first."
+msgstr "Packen erste leichtere Gegenstände."
+
+#: includes/data-wf-settings.php:140
+msgid "Pack purely divided by weight."
+msgstr "Packen Sie rein Gewichts geteilt."
+
+#: includes/data-wf-settings.php:143
+msgid "Select your packing order."
+msgstr "Wählen Sie Ihre Verpackung bestellen."
+
+#: includes/data-wf-settings.php:205
+msgid "Origin Postcode"
+msgstr "Versender Postleitzahl"
+
+#: includes/data-wf-settings.php:207
+msgid "Enter postcode for the <strong>Shipper</strong>."
+msgstr "Geben Sie hler die postleitzahl des <strong>Versenders </ strong> ein"
+
+#: includes/data-wf-settings.php:211
+msgid "Shipper Person Name"
+msgstr "Versender Name"
+
+#: includes/data-wf-settings.php:214 includes/data-wf-settings.php:220
+#: includes/data-wf-settings.php:226 includes/data-wf-settings.php:232
+#: includes/data-wf-settings.php:238 includes/data-wf-settings.php:244
+#: includes/data-wf-settings.php:250
+msgid "Required for label Printing"
+msgstr "Wird für den Etikettdruck benötigt."
+
+#: includes/data-wf-settings.php:217
+msgid "Shipper Company Name"
+msgstr "Versender Firma"
+
+#: includes/data-wf-settings.php:223
+msgid "Shipper Phone Number"
+msgstr "Versender Telefonnummer"
+
+#: includes/data-wf-settings.php:229
+msgid "Shipper Email"
+msgstr "Versender Email"
+
+#: includes/data-wf-settings.php:235
+msgid "Shipper Street Address"
+msgstr "Versender Straße"
+
+#: includes/data-wf-settings.php:241
+msgid "Shipper Street Number (House Number)"
+msgstr "Versender Hausnummer"
+
+#: includes/data-wf-settings.php:247
+msgid "Shipper City"
+msgstr "Versender Ort"
+
+#: includes/data-wf-settings.php:253
+msgid "Shipper State"
+msgstr "Versender Bundesland"
+
+#: includes/data-wf-settings.php:256
+msgid "Name of state. Field length must be less than or equal to 9."
+msgstr "Name des Staates. Feldlänge muss kleiner als oder gleich 9."
+
+#: includes/data-wf-settings.php:259
+msgid "Export Terms Of Trade"
+msgstr "Incoterms für Exporte"
+
+#: includes/data-wf-settings.php:262
+msgid ""
+"terms of trades, i.e. incoterms codes like DDU, CIP et al. Field length must "
+"be = 3"
+msgstr ""
+"Hier können Sie die Übermittlung der incoterms an DHL aktiviren (z.B. DDU, "
+"CIP - die feldlänge muß 3 Zeichen Betragen"
+
+#: includes/data-wf-settings.php:265
+msgid "Export Item Description"
+msgstr "Warenbeschreibung für Exporte"
+
+#: includes/data-wf-settings.php:268
+msgid "Description text for the document"
+msgstr "Legen Sie hier Text für ihre Waren für das Zolldokument fest"
+
+#: includes/data-wf-settings.php:278
+msgid "Debug Mode"
+msgstr "Debug-Modus"
+
+#: includes/data-wf-settings.php:279
+msgid "Enable debug mode"
+msgstr "Aktivieren Sie den Debug-Modus"
+
+#: includes/data-wf-settings.php:283
+msgid "Enable debug mode to show debugging information on the cart/checkout."
+msgstr ""
+"Aktivieren Sie den Debug-Modus Debug-Informationen auf den Warenkorb / Kasse "
+"zu zeigen."
+
+#: includes/data-wf-settings.php:286
+msgid "Advanced Settings"
+msgstr "Erweiterte Einstellungen"
+
+#: includes/data-wf-settings.php:291
+msgid "Euro Paket"
+msgstr "Euro Paket"
+
+#: includes/data-wf-settings.php:292 includes/data-wf-settings.php:300
+msgid "Enable"
+msgstr "Aktivieren"
+
+#: includes/data-wf-settings.php:293
+msgid "Check this if you have euro paket enabled in your account"
+msgstr "Wenn diese Einstellung Euro Paket in Ihrem Konto aktiviert haben"
+
+#: includes/data-wf-settings.php:299
+msgid "Packstation"
+msgstr "Packstation"
+
+#: includes/data-wf-settings.php:301
+msgid "This will allow users to select packstations during checkout."
+msgstr ""
+"Auf diese Weise können Benutzer Packstationen während des Bezahlvorgangs zu "
+"wählen."
+
+#: includes/html-wf-box-packing.php:3
+msgid "Box Sizes"
+msgstr "Paket Größentabelle"
+
+#: includes/html-wf-box-packing.php:36 includes/html-wf-services.php:8
+msgid "Name"
+msgstr "Name"
+
+#: includes/html-wf-box-packing.php:37
+msgid "Length"
+msgstr "Länge"
+
+#: includes/html-wf-box-packing.php:38
+msgid "Width"
+msgstr "Breite"
+
+#: includes/html-wf-box-packing.php:39
+msgid "Height"
+msgstr "Höhe"
+
+#: includes/html-wf-box-packing.php:40
+msgid "Box Weight"
+msgstr "Box Gewicht"
+
+#: includes/html-wf-box-packing.php:41
+msgid "Max Weight"
+msgstr "Maximalgewicht"
+
+#: includes/html-wf-box-packing.php:42 includes/html-wf-services.php:9
+msgid "Enabled"
+msgstr "Aktiviert"
+
+#: includes/html-wf-box-packing.php:48
+msgid "Add Box"
+msgstr "Packet hinzufügen"
+
+#: includes/html-wf-box-packing.php:49
+msgid "Remove selected box(es)"
+msgstr "Entfernen Sie ausgewählte(n) Kästchen"
+
+#: includes/html-wf-box-packing.php:52
+msgid ""
+"Preloaded the Dimension and Weight in unit Inches and Pound. If you have "
+"selected unit as Centimetre and Kilogram please convert it accordingly."
+msgstr ""
+"Die Größen - und Gewichtangaben sind auf Inches und Pfund eingestellt. Wenn "
+"Sie Zentimeter und Kilogramm eingestellt haben, ändern Sie die Werte "
+"entsprechend."
+
+#: includes/html-wf-services.php:3
+msgid "Services"
+msgstr "Dienstleistungen"
+
+#: includes/html-wf-services.php:7
+msgid "Service Code"
+msgstr "Servicecode"
+
+#: includes/html-wf-services.php:11
+#, php-format
+msgid "Price Adjustment (%s)"
+msgstr "Preisanpassung (%s)"
+
+#: includes/html-wf-services.php:12
+msgid "Price Adjustment (%)"
+msgstr "Preisanpassung (%)"
+
+#~ msgid ""
+#~ "Sorry, but you cannot run this plugin, it requires the <a href=\"http://"
+#~ "php.net/manual/en/class.soapclient.php\">SOAP</a> support on your server/"
+#~ "hosting to function."
+#~ msgstr ""
+#~ "Sorry, aber Sie können dieses Plugin nicht ausgeführt, es erfordert die "
+#~ "<a href=\"http://php.net/manual/en/class.soapclient.php\">SOAP</"
+#~ "a>unterstützung auf Ihrem Server / Hosting zu funktionieren"
+
+#~ msgid "Settings"
+#~ msgstr "Einstellungen"
+
+#~ msgid "Support"
+#~ msgstr "Unterstützen"
+
+#~ msgid ""
+#~ "The license key for %s has expired. You can reactivate or purchase a "
+#~ "license key from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+#~ "a>."
+#~ msgstr ""
+#~ "Der Lizenzschlüssel für %s ist abgelaufen. Sie können einen "
+#~ "Lizenzschlüssel von Ihrem Konto <a href=\"%s\" target=\"_blank\"> "
+#~ "Dashboard </a> reaktivieren oder zu kaufen."
+
+#~ msgid ""
+#~ "The subscription for %s is on-hold. You can reactivate the subscription "
+#~ "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+#~ msgstr ""
+#~ "Das Abonnement für %s ist in der Warteschleife . Sie können das "
+#~ "Abonnement von Ihrem Konto <a href=\"%s\" target=\"_blank\"> Dashboard </"
+#~ "a> reaktivieren."
+
+#~ msgid ""
+#~ "The subscription for %s has been cancelled. You can renew the "
+#~ "subscription from your account <a href=\"%s\" target=\"_blank"
+#~ "\">dashboard</a>. A new license key will be emailed to you after your "
+#~ "order has been completed."
+#~ msgstr ""
+#~ "Das Abonnement für %s wurde abgebrochen. Sie können das Abonnement von "
+#~ "Ihrem Konto <a href=\"%s\" target=\"_blank\"> Dashboard </a> erneuern. "
+#~ "Eine neue Lizenzschlüssel wird Ihnen per E-Mail , sobald Ihre Bestellung "
+#~ "abgeschlossen ist."
+
+#~ msgid ""
+#~ "The subscription for %s has expired. You can reactivate the subscription "
+#~ "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+#~ msgstr ""
+#~ "Das Abonnement für %s ist abgelaufen. Sie können das Abonnement von Ihrem "
+#~ "Konto <a href=\"%s\" target=\"_blank\">Dashboard</a> reaktivieren."
+
+#~ msgid ""
+#~ "The subscription for %s has been suspended. You can reactivate the "
+#~ "subscription from your account <a href=\"%s\" target=\"_blank"
+#~ "\">dashboard</a>."
+#~ msgstr ""
+#~ "Das Abonnement für %s wurde ausgesetzt. Sie können das Abonnement von "
+#~ "Ihrem Konto <a href=\"%s\" target=\"_blank\">Dashboard</a> reaktivieren."
+
+#~ msgid ""
+#~ "The subscription for %s is still pending. You can check on the status of "
+#~ "the subscription from your account <a href=\"%s\" target=\"_blank"
+#~ "\">dashboard</a>."
+#~ msgstr ""
+#~ "Das Abonnement für %s ist noch anhängig. Sie können von Ihrem Konto <a "
+#~ "href=\"%s\" über den Status des Abonnements überprüfen target=\"_blank"
+#~ "\">Dashboard</a>."
+
+#~ msgid ""
+#~ "The subscription for %s has been placed in the trash and will be deleted "
+#~ "soon. You can purchase a new subscription from your account <a href=\"%s"
+#~ "\" target=\"_blank\">dashboard</a>."
+#~ msgstr ""
+#~ "Das Abonnement für %s wurde in den Papierkorb gelegt und wird bald "
+#~ "gelöscht werden. Sie können ein neues Abonnement von Ihrem Konto <a href="
+#~ "\"%s\" target=\"_blank\">Dashboard</a> kaufen."
+
+#~ msgid ""
+#~ "A subscription for %s could not be found. You can purchase a subscription "
+#~ "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+#~ msgstr ""
+#~ "Ein Abonnement für %s konnte nicht gefunden werden . Sie können ein "
+#~ "Abonnement von Ihrem Konto <a href=\"%s\" target=\"_blank\">Dashboard</a> "
+#~ "kaufen."
+
+#~ msgid ""
+#~ "A license key for %s could not be found. Maybe you forgot to enter a "
+#~ "license key when setting up %s, or the key was deactivated in your "
+#~ "account. You can reactivate license key at your plugin <a href=\"%s\" "
+#~ "target=\"_blank\">settings page</a>."
+#~ msgstr ""
+#~ "Ein Lizenzschlüssel für %s konnte nicht gefunden werden. Vielleicht "
+#~ "vergessen Sie einen Lizenzschlüssel einzugeben, wenn %s Einrichtung oder "
+#~ "der Schlüssel in Ihrem Konto deaktiviert. Sie können Lizenzschlüssel in "
+#~ "Ihrem Plugin <a href=\"%s\" target=\"_blank\"> Einstellungen </a> "
+#~ "reaktivieren."
+
+#~ msgid ""
+#~ "Download permission for %s has been revoked possibly due to a license key "
+#~ "or subscription expiring. You can reactivate or purchase a license key "
+#~ "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+#~ msgstr ""
+#~ "Download- Berechtigung für %s wurde möglicherweise aufgrund eines "
+#~ "Lizenzschlüssels oder Abonnement Ablaufen widerrufen . Sie können einen "
+#~ "Lizenzschlüssel von Ihrem Konto <a href=\"%s\" target=\"_blank"
+#~ "\">Dashboard</a> reaktivieren oder kaufen."
+
+#~ msgid ""
+#~ "%s has not been activated. Go to the plugin <a href=\"%s\" target=\"_blank"
+#~ "\">settings page</a> and enter the license key and license email to "
+#~ "activate %s."
+#~ msgstr ""
+#~ "%s wurde nicht aktiviert. Gehen Sie auf die Plugin <a href=\"%s\" target="
+#~ "\"_blank\"> Einstellungen </a> und geben Sie den Lizenzschlüssel und "
+#~ "Lizenz E-Mail an %s aktivieren."
+
+#~ msgid ""
+#~ "You changed the subscription for %s, so you will need to enter your new "
+#~ "API License Key in the settings page. The License Key should have arrived "
+#~ "in your email inbox, if not you can get it by logging into your account "
+#~ "<a href=\"%s\" target=\"_blank\">dashboard</a>."
+#~ msgstr ""
+#~ "Sie verändert das Abonnement für %s , so dass Sie benötigen, um Ihre neue "
+#~ "API- Lizenzschlüssel auf der Einstellungsseite zu gelangen. Der "
+#~ "Lizenzschlüssel sollte in Ihrem E-Mail -Posteingang angekommen , wenn Sie "
+#~ "es nicht , indem Sie sich in Ihrem Konto <a href=\"%s\" target=\"_blank"
+#~ "\">Dashboard</a> erhalten."
+
+#~ msgid "Required for label Printing."
+#~ msgstr "Wird für den Etikettdruck benötigt."
+
+#~ msgid ""
+#~ "A license key for %s could not be found. Maybe you forgot to enter a "
+#~ "license key when setting up %s, or the key was deactivated in your "
+#~ "account. You can reactivate or purchase a license key from your account "
+#~ "<a href=\"%s\" target=\"_blank\">dashboard</a>."
+#~ msgstr ""
+#~ "Ein Lizenzschlüssel für %s konnte nicht gefunden werden . Vielleicht "
+#~ "vergessen Sie einen Lizenzschlüssel einzugeben, wenn %s Einrichtung oder "
+#~ "der Schlüssel in Ihrem Konto deaktiviert. Sie können einen "
+#~ "Lizenzschlüssel von Ihrem Konto <a href=\"%s\" target=\"_blank"
+#~ "\">Dashboard</a> reaktivieren oder kaufen."
+
+#~ msgid ""
+#~ "%s has not been activated. Go to the settings page and enter the license "
+#~ "key and license email to activate %s."
+#~ msgstr ""
+#~ "%s wurde nicht aktiviert . Gehen Sie auf die Seite mit den Einstellungen "
+#~ "und geben Sie den Lizenzschlüssel und Lizenz E-Mail an %s aktivieren."

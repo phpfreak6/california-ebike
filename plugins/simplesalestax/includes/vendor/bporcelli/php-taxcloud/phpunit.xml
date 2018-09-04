@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit colors="false" verbose="false" bootstrap="vendor/autoload.php">
+
+  <testsuites>
+    <testsuite name="TaxCloud">
+      <directory>./tests/TaxCloud/Tests</directory>
+    </testsuite>
+  </testsuites>
+
+  <logging>
+      <log type="coverage-clover" target="build/logs/clover.xml"/>
+  </logging>
+
+  <filter>
+    <whitelist>
+      <directory suffix=".php">./lib</directory>
+    </whitelist>
+  </filter>
+
+</phpunit>

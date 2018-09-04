@@ -1,0 +1,4 @@
+report
+report/*
+vendor/*
+composer.lock

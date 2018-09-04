@@ -1,0 +1,2269 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wf-shipping-dhl\n"
+"POT-Creation-Date: 2017-09-15 16:45+0530\n"
+"PO-Revision-Date: 2017-09-15 17:06+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_CA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: dhl-woocommerce-shipping.php:29
+msgid ""
+"Oops! You tried installing the premium version without deactivating and "
+"deleting the basic version. Kindly deactivate and delete DHL(Basic) "
+"Woocommerce Extension and then try again"
+msgstr ""
+"Oops! Vous avez essayé d'installer la version Premium sans désactiver et "
+"supprimer la version de base. Veuillez désactiver et supprimer DHL (Basic) "
+"Woocommerce Extension, puis réessayer"
+
+#: dhl-woocommerce-shipping.php:98
+msgid "HS Tariff Number (DHL)"
+msgstr "Numéro de tarif HS (DHL)"
+
+#: dhl-woocommerce-shipping.php:99
+msgid "HS is a standardized system of names and numbers to classify products."
+msgstr ""
+"HS est un système standardisé de noms et de nombres pour classer les "
+"produits."
+
+#: dhl-woocommerce-shipping.php:107
+msgid "Country of manufacture (DHL)"
+msgstr "Pays de fabrication (DHL)"
+
+#: dhl-woocommerce-shipping.php:108
+msgid "Country of manufacture"
+msgstr "Pays de fabrication"
+
+#: dhl-woocommerce-shipping.php:115
+msgid "DHL Delivery signature option"
+msgstr "Option de signature de livraison DHL"
+
+#: dhl-woocommerce-shipping.php:117
+msgid "No Signature Required"
+msgstr "Aucune signature requise"
+
+#: dhl-woocommerce-shipping.php:118
+msgid "Delivery Signature"
+msgstr "Signature de livraison"
+
+#: dhl-woocommerce-shipping.php:119
+msgid "Content Signature"
+msgstr "Signature du contenu"
+
+#: dhl-woocommerce-shipping.php:120
+msgid "Named Signature"
+msgstr "Signature de signature"
+
+#: dhl-woocommerce-shipping.php:121
+msgid "Adult Signature"
+msgstr "Signature adulte"
+
+#: dhl-woocommerce-shipping.php:122
+msgid "Contract Signature"
+msgstr "Signature du contrat"
+
+#: dhl-woocommerce-shipping.php:123
+msgid "Alternative Signature"
+msgstr "Signature alternative"
+
+#: dhl-woocommerce-shipping.php:195 dhl-woocommerce-shipping.php:198
+msgid "Create DHL Express Shipment"
+msgstr "Créer un envoi Express DHL"
+
+#: dhl-woocommerce-shipping.php:201 dhl-woocommerce-shipping.php:204
+msgid "Create DHL Express Return Shipment"
+msgstr "Créer un envoi DHL Express Return"
+
+#: dhl-woocommerce-shipping.php:283
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin.php:908
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping.php:14
+msgid "DHL Express"
+msgstr "DHL Express"
+
+#: dhl-woocommerce-shipping.php:285
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:270
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping.php:12
+#: dhl_paket/includes/class-wf-tracking-admin.php:202
+msgid "DHL Paket"
+msgstr "DHL Paket"
+
+#: dhl-woocommerce-shipping.php:287
+#: dhl_eccommerce/includes/class-wf-dhl-woocommerce-shipping-admin.php:305
+#: dhl_eccommerce/includes/class-wf-dhl-woocommerce-shipping.php:14
+#: dhl_eccommerce/includes/data-wf-settings.php:21
+msgid "DHL Ecommerce"
+msgstr "DHL Ecommerce"
+
+#: dhl-woocommerce-shipping.php:289
+msgid "Documentation"
+msgstr "Documentation"
+
+#: dhl-woocommerce-shipping.php:290
+msgid "Support"
+msgstr "Soutien"
+
+#: dhl-woocommerce-shipping.php:362 dhl-woocommerce-shipping.php:366
+msgid "Create DHL Ecommerce Shipment"
+msgstr "Créer un envoi DHL Ecommerce"
+
+#: dhl_eccommerce/includes/class-wf-dhl-woocommerce-shipping-admin-helper.php:116
+#: dhl_eccommerce/includes/class-wf-dhl-woocommerce-shipping-admin-helper.php:299
+#: dhl_eccommerce/includes/class-wf-dhl-woocommerce-shipping.php:350
+#: dhl_eccommerce/includes/class-wf-dhl-woocommerce-shipping.php:440
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin-helper.php:122
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin-helper.php:333
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping.php:451
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping.php:541
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping-admin-helper.php:111
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping-admin-helper.php:194
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping.php:178
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping.php:255
+msgid "Product # is virtual. Skipping."
+msgstr "Le produit n ° est virtuel. Saut."
+
+#: dhl_eccommerce/includes/class-wf-dhl-woocommerce-shipping-admin-helper.php:126
+#: dhl_eccommerce/includes/class-wf-dhl-woocommerce-shipping.php:360
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin-helper.php:132
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping.php:461
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping.php:183
+msgid "Product # is missing weight. Aborting."
+msgstr "Le numéro de produit manque de poids. Abandonner."
+
+#: dhl_eccommerce/includes/class-wf-dhl-woocommerce-shipping-admin-helper.php:202
+#: dhl_eccommerce/includes/class-wf-dhl-woocommerce-shipping.php:251
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin-helper.php:208
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping.php:352
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping-admin-helper.php:317
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping-admin-helper.php:769
+#, php-format
+msgid "Product #%d is virtual. Skipping."
+msgstr "Le produit #% d est virtuel. Saut."
+
+#: dhl_eccommerce/includes/class-wf-dhl-woocommerce-shipping-admin-helper.php:207
+#: dhl_eccommerce/includes/class-wf-dhl-woocommerce-shipping.php:256
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin-helper.php:213
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping.php:357
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping-admin-helper.php:322
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping-admin-helper.php:774
+#, php-format
+msgid "Product #%d is missing weight."
+msgstr "Le produit #% d manque de poids."
+
+#: dhl_eccommerce/includes/class-wf-dhl-woocommerce-shipping-admin-helper.php:320
+#: dhl_eccommerce/includes/class-wf-dhl-woocommerce-shipping.php:461
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin-helper.php:354
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping.php:562
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping-admin-helper.php:221
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping.php:277
+#, php-format
+msgid "Product #%s is missing dimensions. Aborting."
+msgstr "Le produit #% s n'a pas de dimensions. Abandonner."
+
+#: dhl_eccommerce/includes/class-wf-dhl-woocommerce-shipping-admin-helper.php:894
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin-helper.php:1562
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin-helper.php:1606
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:86
+msgid "Back to Order"
+msgstr "Retour à la commande"
+
+#: dhl_eccommerce/includes/class-wf-dhl-woocommerce-shipping-admin-helper.php:906
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin-helper.php:1617
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin-helper.php:1635
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping.php:755
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping-admin-helper.php:760
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping.php:438
+msgid ""
+"dhl debug mode is on - to hide these messages, turn debug mode off in the "
+"settings."
+msgstr ""
+"Le mode de débogage dhl est activé - pour masquer ces messages, désactivez "
+"le mode de débogage dans les paramètres."
+
+#: dhl_eccommerce/includes/class-wf-dhl-woocommerce-shipping-admin.php:99
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin.php:613
+msgid "Create shipment is failed for following order(s) "
+msgstr "Créer l'envoi échoué pour la (les) commande (s) suivante (s)"
+
+#: dhl_eccommerce/includes/class-wf-dhl-woocommerce-shipping-admin.php:103
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin.php:617
+msgid "Successfully created shipment for following order(s) "
+msgstr "Expédition créée avec succès pour la (les) commande (s) suivante (s)"
+
+#: dhl_eccommerce/includes/class-wf-dhl-woocommerce-shipping-admin.php:107
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin.php:621
+msgid "Shipment already exist for following order(s) "
+msgstr "L'expédition existe déjà pour la (les) commande (s) suivante (s)"
+
+#: dhl_eccommerce/includes/class-wf-dhl-woocommerce-shipping-admin.php:329
+#, php-format
+msgid "DHL Ecommerce Create Shipment Error:%s"
+msgstr "DHL Ecommerce Crée une erreur d'envoi:%s"
+
+#: dhl_eccommerce/includes/class-wf-dhl-woocommerce-shipping-admin.php:350
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:329
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:702
+msgid "Print Label"
+msgstr "Imprimer Étiquette"
+
+#: dhl_eccommerce/includes/class-wf-dhl-woocommerce-shipping-admin.php:356
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:62
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin.php:1086
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin.php:1434
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:62
+msgid "Commercial Invoice"
+msgstr "Facture commerciale"
+
+#: dhl_eccommerce/includes/class-wf-dhl-woocommerce-shipping-admin.php:366
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin.php:1446
+msgid "Auto generate packages."
+msgstr "Auto générer des packages."
+
+#: dhl_eccommerce/includes/class-wf-dhl-woocommerce-shipping-admin.php:392
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin.php:1454
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:397
+msgid "Package(s)"
+msgstr "Offre(s) packagée(s)"
+
+#: dhl_eccommerce/includes/class-wf-dhl-woocommerce-shipping-admin.php:395
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:400
+msgid "Wt."
+msgstr "Pds."
+
+#: dhl_eccommerce/includes/class-wf-dhl-woocommerce-shipping-admin.php:396
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:401
+msgid "L"
+msgstr "L"
+
+#: dhl_eccommerce/includes/class-wf-dhl-woocommerce-shipping-admin.php:397
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:402
+msgid "W"
+msgstr "Semaine"
+
+#: dhl_eccommerce/includes/class-wf-dhl-woocommerce-shipping-admin.php:398
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:403
+msgid "H"
+msgstr "H"
+
+#: dhl_eccommerce/includes/class-wf-dhl-woocommerce-shipping-admin.php:450
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin.php:1617
+msgid "Saturday Delivery"
+msgstr "Livraison le samedi"
+
+#: dhl_eccommerce/includes/class-wf-dhl-woocommerce-shipping-admin.php:454
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin.php:1634
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:430
+msgid "Create Shipment"
+msgstr "Créer l'expédition"
+
+#: dhl_eccommerce/includes/class-wf-dhl-woocommerce-shipping-admin.php:457
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin.php:1448
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:481
+msgid "Generate Packages"
+msgstr "Générer des paquets"
+
+#: dhl_eccommerce/includes/class-wf-dhl-woocommerce-shipping.php:15
+msgid ""
+"Obtains  real time shipping rates and Print shipping labels via DHL Shipping "
+"API."
+msgstr ""
+"Obtient des tarifs de livraison en temps réel et imprimez les étiquettes "
+"d'expédition via DHL Shipping API."
+
+#: dhl_eccommerce/includes/class-wf-dhl-woocommerce-shipping.php:108
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping.php:69
+msgid "DHL is enabled, but the origin postcode has not been set."
+msgstr ""
+"Postes Canada est activée, mais le code postale d'origine n'a pas été "
+"définie."
+
+#: dhl_eccommerce/includes/data-wf-settings.php:7
+msgid "Origin Address"
+msgstr "Adresse d'origine"
+
+#: dhl_eccommerce/includes/data-wf-settings.php:23
+#: dhl_paket/includes/data-wf-settings.php:293
+#: dhl_paket/includes/data-wf-settings.php:301
+msgid "Enable"
+msgstr "Activer"
+
+#: dhl_eccommerce/includes/data-wf-settings.php:27
+msgid "Pickup Account Number"
+msgstr "Numéro de compte de ramassage"
+
+#: dhl_eccommerce/includes/data-wf-settings.php:29
+#: dhl_eccommerce/includes/data-wf-settings.php:35
+#: dhl_eccommerce/includes/data-wf-settings.php:41
+#: dhl_eccommerce/includes/data-wf-settings.php:50
+#: dhl_eccommerce/includes/data-wf-settings.php:59
+#: dhl_paket/includes/data-wf-settings.php:31
+#: dhl_paket/includes/data-wf-settings.php:51
+#: dhl_paket/includes/data-wf-settings.php:60
+msgid "contact DHL."
+msgstr "contactez DHL."
+
+#: dhl_eccommerce/includes/data-wf-settings.php:33
+msgid "Client ID"
+msgstr "ID Client"
+
+#: dhl_eccommerce/includes/data-wf-settings.php:39
+#: dhl_express/includes/settings/dhl_general_settings.php:188
+#: dhl_paket/includes/data-wf-settings.php:49
+msgid "Site ID"
+msgstr "Site ID"
+
+#: dhl_eccommerce/includes/data-wf-settings.php:48
+#: dhl_express/includes/settings/dhl_general_settings.php:192
+#: dhl_paket/includes/data-wf-settings.php:58
+msgid "Site Password"
+msgstr "Mot de passe du site & #160;:"
+
+#: dhl_eccommerce/includes/data-wf-settings.php:57
+msgid "Facility Code"
+msgstr "Code d'installation"
+
+#: dhl_eccommerce/includes/data-wf-settings.php:67
+#: dhl_paket/includes/data-wf-settings.php:103
+msgid "Dimension/Weight Unit"
+msgstr "Unité de dimension / poids"
+
+#: dhl_eccommerce/includes/data-wf-settings.php:68
+#: dhl_paket/includes/data-wf-settings.php:104
+msgid "This unit will be passed to DHL."
+msgstr "Cet appareil sera transmis à DHL."
+
+#: dhl_eccommerce/includes/data-wf-settings.php:73
+#: dhl_paket/includes/data-wf-settings.php:109
+msgid "Pounds & Inches"
+msgstr "Livres & pouces"
+
+#: dhl_eccommerce/includes/data-wf-settings.php:74
+#: dhl_paket/includes/data-wf-settings.php:110
+msgid "Kilograms & Centimetres"
+msgstr "Kilogrammes et centimètres"
+
+#: dhl_eccommerce/includes/data-wf-settings.php:87
+msgid "Ship From Address Preference"
+msgstr "Expédier à partir de la préférence d'adresse"
+
+#: dhl_eccommerce/includes/data-wf-settings.php:91
+msgid ""
+"Change to desired option if you ship from a different location other than "
+"shipment origin address given below."
+msgstr ""
+"Changer d’option souhaitée si vous expédiez depuis un autre emplacement "
+"autre que l’adresse d’origine expédition ci-dessous."
+
+#: dhl_eccommerce/includes/data-wf-settings.php:95
+#: dhl_paket/includes/data-wf-settings.php:206
+msgid "Origin Postcode"
+msgstr "Code postal d'origine"
+
+#: dhl_eccommerce/includes/data-wf-settings.php:97
+#: dhl_paket/includes/data-wf-settings.php:208
+msgid "Enter postcode for the <strong>Shipper</strong>."
+msgstr "Entrez le code postal de l' <strong>expéditeur</strong> ."
+
+#: dhl_eccommerce/includes/data-wf-settings.php:101
+#: dhl_paket/includes/data-wf-settings.php:212
+msgid "Shipper Person Name"
+msgstr "Nom de la personne de l'expéditeur"
+
+#: dhl_eccommerce/includes/data-wf-settings.php:107
+#: dhl_paket/includes/data-wf-settings.php:218
+msgid "Shipper Company Name"
+msgstr "Nom de l'entreprise expéditeur"
+
+#: dhl_eccommerce/includes/data-wf-settings.php:113
+#: dhl_paket/includes/data-wf-settings.php:224
+msgid "Shipper Phone Number"
+msgstr "Numéro de téléphone de l'expéditeur"
+
+#: dhl_eccommerce/includes/data-wf-settings.php:119
+#: dhl_paket/includes/data-wf-settings.php:230
+msgid "Shipper Email"
+msgstr "Courrier électronique de l'expéditeur"
+
+#: dhl_eccommerce/includes/data-wf-settings.php:125
+#: dhl_paket/includes/data-wf-settings.php:236
+msgid "Shipper Street Address"
+msgstr "Adresse de l'expéditeur"
+
+#: dhl_eccommerce/includes/data-wf-settings.php:131
+msgid "Shipper Street Address 2"
+msgstr "Adresse de l'expéditeur 2"
+
+#: dhl_eccommerce/includes/data-wf-settings.php:137
+#: dhl_paket/includes/data-wf-settings.php:248
+msgid "Shipper City"
+msgstr "Expéditeur Ville"
+
+#: dhl_eccommerce/includes/data-wf-settings.php:143
+msgid "Shipper State Code"
+msgstr "Code d'État de l'expéditeur"
+
+#: dhl_eccommerce/includes/data-wf-settings.php:149
+msgid "Label print size"
+msgstr "Taille d'impression d'étiquette"
+
+#: dhl_eccommerce/includes/data-wf-settings.php:154
+msgid "8X4_A4_PDF"
+msgstr "8X4_A4_PDF"
+
+#: dhl_eccommerce/includes/data-wf-settings.php:155
+msgid "8X4_thermal"
+msgstr "8X4_thermal"
+
+#: dhl_eccommerce/includes/data-wf-settings.php:156
+msgid "8X4_A4_TC_PDF"
+msgstr "8X4_A4_TC_PDF"
+
+#: dhl_eccommerce/includes/data-wf-settings.php:157
+msgid "8X4_CI_PDF"
+msgstr "8X4_CI_PDF"
+
+#: dhl_eccommerce/includes/data-wf-settings.php:158
+msgid "8X4_CI_thermal"
+msgstr "8X4_CI_thermal"
+
+#: dhl_eccommerce/includes/data-wf-settings.php:159
+msgid "6X4_A4_PDF"
+msgstr "6X4_A4_PDF"
+
+#: dhl_eccommerce/includes/data-wf-settings.php:163
+msgid "Image Type"
+msgstr "Type de l’image"
+
+#: dhl_eccommerce/includes/data-wf-settings.php:168
+msgid "PDF"
+msgstr "Afficher PDF"
+
+#: dhl_eccommerce/includes/data-wf-settings.php:169
+msgid "ZPL2"
+msgstr "ZPL2"
+
+#: dhl_eccommerce/includes/data-wf-settings.php:170
+msgid "EPL2"
+msgstr "EPL2"
+
+#: dhl_eccommerce/includes/data-wf-settings.php:175
+msgid "Tracking PIN"
+msgstr "PIN de suivi"
+
+#: dhl_eccommerce/includes/data-wf-settings.php:176
+msgid "Add Tracking PIN to customer order notes"
+msgstr "Ajouter un code PIN de suivi aux notes de commande client"
+
+#: dhl_eccommerce/includes/data-wf-settings.php:182
+#: dhl_paket/includes/data-wf-settings.php:96
+msgid "Custom Shipment Message"
+msgstr "Message d'expédition personnalisé"
+
+#: dhl_eccommerce/includes/data-wf-settings.php:184
+#: dhl_paket/includes/data-wf-settings.php:98
+msgid ""
+"Define your own shipment message. Use the place holder tags [ID], [SERVICE] "
+"and [DATE] for Shipment Id, Shipment Service and Shipment Date respectively. "
+"Leave it empty for default message.<br>"
+msgstr ""
+"Définir votre propre message d’envoi. Utiliser les balises de titulaire "
+"endroit [ID], [SERVICE] et [DATE], respectivement pour l’Id de l’expédition, "
+"expédition Service et Date d’expédition. Laisser vide pour le message par "
+"défaut.<br>"
+
+#: dhl_eccommerce/includes/data-wf-settings.php:191
+#: dhl_paket/includes/data-wf-settings.php:279
+msgid "Debug Mode"
+msgstr "Mode débogage"
+
+#: dhl_eccommerce/includes/data-wf-settings.php:192
+#: dhl_paket/includes/data-wf-settings.php:280
+msgid "Enable debug mode"
+msgstr "Activer le mode de débogage"
+
+#: dhl_eccommerce/includes/data-wf-settings.php:196
+#: dhl_paket/includes/data-wf-settings.php:284
+msgid "Enable debug mode to show debugging information on the cart/checkout."
+msgstr ""
+"Activer le mode de développement pour afficher l'information de déboggage "
+"dans le panier et à la caisse."
+
+#: dhl_eccommerce/includes/data-wf-settings.php:200
+#: dhl_paket/includes/data-wf-settings.php:287
+msgid "Advanced Settings"
+msgstr "Paramètres avancés"
+
+#: dhl_eccommerce/includes/data-wf-settings.php:206
+msgid "Contents description"
+msgstr "Description du contenu"
+
+#: dhl_eccommerce/includes/data-wf-settings.php:215
+msgid "Default service for domestic"
+msgstr "Service par défaut pour domestique"
+
+#: dhl_eccommerce/includes/data-wf-settings.php:225
+msgid "Default service for international"
+msgstr "Service par défaut pour international"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:69
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:69
+msgid ""
+"If there is a designated broker for this shipment, please provide contact "
+"information."
+msgstr ""
+"S'il y a un courtier désigné pour cette expédition, veuillez fournir des "
+"informations de contact."
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:73
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:73
+msgid "Name of Broker"
+msgstr "Nom du courtier"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:77
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:77
+msgid "Duties and Taxes Payable by"
+msgstr "Devoirs et taxes payables par"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:80
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:80
+msgid "Tel.No."
+msgstr "Tél."
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:83
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:83
+msgid "Contact Name"
+msgstr "Nom de personnes-ressources"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:86
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:86
+msgid "Exporter"
+msgstr "L'exportateur"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:89
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:89
+msgid "Consignee"
+msgstr "Destinataire"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:92
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:92
+msgid "Other"
+msgstr "Autres"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:96
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:96
+msgid "Duty Account Number: "
+msgstr "Numéro du compte :"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:100
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:100
+msgid "If Other, please specify"
+msgstr "Si « Autre », veuillez préciser"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:118
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:248
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:118
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:249
+msgid "X"
+msgstr "X"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:128
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:128
+msgid "EXPORTER:"
+msgstr "Exportateur:"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:131
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:131
+msgid "Contact Name: "
+msgstr "Nom du contact:"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:138
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:138
+msgid "Telephone No.: "
+msgstr "Numéro de téléphone :"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:145
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:145
+msgid "Email:"
+msgstr "Email:"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:152
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:224
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:263
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:152
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:225
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:264
+msgid "Company Name/Address:"
+msgstr "Société: Adresse:"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:165
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:165
+msgid "  "
+msgstr ""
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:169
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:241
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:169
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:242
+msgid "Country: "
+msgstr "Pays:"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:176
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:176
+msgid "Invoice Date:"
+msgstr "Date de la facture :"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:184
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:184
+msgid "Air Waybill No./Tracking No.:"
+msgstr "N ° de trajet aérien / N ° de référence:"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:188
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:188
+msgid "Invoice No.:"
+msgstr "Číslo faktury:"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:193
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:193
+msgid "Purchase Order No.:"
+msgstr "Bon de commande Nº"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:196
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:196
+msgid "Bill of Lading:"
+msgstr "Connaissement :"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:204
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:205
+msgid "CONSIGNEE:"
+msgstr "Destinataire :"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:207
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:208
+msgid "Contact Name:"
+msgstr "Nom du contact:"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:210
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:237
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:276
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:211
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:238
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:277
+msgid " "
+msgstr ""
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:214
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:215
+msgid "Telephone No.:"
+msgstr "Numéro de téléphone :"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:221
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:222
+msgid "E-Mail:"
+msgstr "E-mail :"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:253
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:254
+msgid "SOLD TO / IMPORTER (if different from Consignee):"
+msgstr "VENDU à / importateur (si différent du destinataire) :"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:257
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:258
+msgid "Same as CONSIGNEE:"
+msgstr "IDENTIQUE È CELLE DU DESTINATAIRE"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:260
+msgid "Tax ID#:"
+msgstr "Identification fiscale"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:280
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:281
+msgid "Country:"
+msgstr "Pays:"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:292
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:293
+msgid "No. of"
+msgstr "Nbre d’"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:296
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:297
+msgid "Packages"
+msgstr "Abonnements"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:298
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:299
+msgid "Product"
+msgstr "Produit"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:301
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:302
+msgid "Quantity"
+msgstr "Quantité"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:303
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:304
+msgid "Net Weight"
+msgstr "Poids net"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:307
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:308
+msgid "(LB/KG)"
+msgstr "lb (kg)"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:310
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:311
+msgid "Unit of"
+msgstr "Unité de"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:314
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:315
+msgid "Measure"
+msgstr "Mesure"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:317
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:318
+msgid "Description of Goods"
+msgstr "Description des marchandises"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:319
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:320
+msgid "HS Tariff"
+msgstr "Tarif HS"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:321
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:322
+msgid "Country of"
+msgstr "Pays :"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:325
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:326
+msgid "Manufacture"
+msgstr "Fabrication"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:328
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:329
+msgid "Unit"
+msgstr "Unité"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:331
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:336
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:332
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:337
+msgid "Value"
+msgstr "Valeur"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:333
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:381
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:386
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:334
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:386
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:391
+msgid "Total"
+msgstr "Total"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:384
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:389
+msgid "Pkgs"
+msgstr "Pkgs"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:389
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:394
+msgid "Units"
+msgstr "Unités"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:391
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:396
+msgid "Total Net"
+msgstr "Total Net"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:394
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:404
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin.php:1170
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin.php:1460
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:399
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:409
+msgid "Weight"
+msgstr "Poids"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:396
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:406
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:401
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:411
+msgid "(Indicate"
+msgstr "remplir les cases par des x"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:399
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:409
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:404
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:414
+msgid "LB/KG)"
+msgstr "lb (kg)"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:401
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:406
+msgid "Total Gross"
+msgstr "Total brut"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:427
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:432
+msgid "Declaration Statement(s):"
+msgstr "Déclaration (s):"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:430
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:435
+msgid ""
+"I declare that all the information contained in this invoice to be true and "
+"correct."
+msgstr ""
+"Je déclare que toutes les informations contenues dans cette facture sont "
+"vraies et correctes."
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:433
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:438
+msgid ""
+"Originator or Name of Company Representative if the invoice is being "
+"completed on behalf of a company or individual:"
+msgstr ""
+"Donneur d’ordre ou le nom du représentant de l’entreprise si la facture est "
+"effectuée au nom d’une société ou un particulier :"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:441
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:446
+msgid "Signature / Title / Date:"
+msgstr "Signature Titre Date"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:446
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:451
+msgid "Subtotal:"
+msgstr "Sous-total&nbsp;:"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:449
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:454
+msgid "Insurance:"
+msgstr "Assurance :"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:452
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:457
+msgid "Other:"
+msgstr "Autres:"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:455
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:460
+msgid "Discount:"
+msgstr "Remise&nbsp;:"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:458
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:463
+msgid "Invoice Total:"
+msgstr "Total de la facture :"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:461
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:466
+msgid "Currency Code:"
+msgstr "Code de la monnaie"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:468
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:473
+msgid "0.00"
+msgstr "0,00"
+
+#: dhl_eccommerce/includes/fpdf/wf-dhl-commercial-invoice-template.php:490
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:495
+msgid ":"
+msgstr ":"
+
+#: dhl_eccommerce/includes/html-wf-box-packing.php:3
+#: dhl_express/includes/html-wf-box-packing.php:1
+#: dhl_paket/includes/html-wf-box-packing.php:3
+msgid "Box Sizes"
+msgstr "Dimensions de la boite"
+
+#: dhl_eccommerce/includes/html-wf-box-packing.php:34
+#: dhl_express/includes/html-wf-box-packing.php:32
+msgid "DHL Box "
+msgstr "Boîte de DHL"
+
+#: dhl_eccommerce/includes/html-wf-box-packing.php:35
+#: dhl_express/includes/html-wf-box-packing.php:33
+#: dhl_express/includes/settings/dhl_packing_settings.php:4
+msgid "Flyer"
+msgstr "Flyer"
+
+#: dhl_eccommerce/includes/html-wf-box-packing.php:36
+#: dhl_express/includes/html-wf-box-packing.php:34
+#: dhl_express/includes/settings/dhl_packing_settings.php:4
+msgid "Your Pack"
+msgstr "Votre Pack"
+
+#: dhl_eccommerce/includes/html-wf-services.php:3
+#: dhl_paket/includes/html-wf-services.php:3
+msgid "Services"
+msgstr "Services"
+
+#: dhl_eccommerce/includes/html-wf-services.php:7
+#: dhl_express/includes/html-wf-services.php:7
+#: dhl_paket/includes/html-wf-services.php:7
+msgid "Service Code"
+msgstr "Code du service"
+
+#: dhl_eccommerce/includes/html-wf-services.php:8
+#: dhl_express/includes/html-wf-box-packing.php:46
+#: dhl_express/includes/html-wf-services.php:8
+#: dhl_paket/includes/html-wf-box-packing.php:36
+#: dhl_paket/includes/html-wf-services.php:8
+msgid "Name"
+msgstr "Nom"
+
+#: dhl_eccommerce/includes/html-wf-services.php:9
+#: dhl_express/includes/html-wf-box-packing.php:55
+#: dhl_express/includes/html-wf-services.php:9
+#: dhl_paket/includes/html-wf-box-packing.php:42
+#: dhl_paket/includes/html-wf-services.php:9
+msgid "Enabled"
+msgstr "Activé"
+
+#: dhl_eccommerce/includes/html-wf-services.php:10
+#: dhl_express/includes/html-wf-services.php:10
+#: dhl_paket/includes/html-wf-services.php:11
+#, php-format
+msgid "Price Adjustment (%s)"
+msgstr "Ajustement du prix (%s)"
+
+#: dhl_eccommerce/includes/html-wf-services.php:11
+#: dhl_express/includes/html-wf-services.php:11
+#: dhl_paket/includes/html-wf-services.php:12
+msgid "Price Adjustment (%)"
+msgstr "Ajustement du prix (%)"
+
+#: dhl_eccommerce/includes/track/class-wf-tracking-util.php:247
+#: dhl_paket/includes/class-wf-tracking-admin.php:259
+#: dhl_paket/includes/track/class-wf-tracking-util.php:246
+msgid "Unable to update tracking info."
+msgstr "Impossible de mettre à jour d’informations de suivi."
+
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin-helper.php:1790
+#, php-format
+msgid ""
+"DHL Tracking-pin #: <a href=\"http://www.dhl.com/en/express/tracking.html?"
+"AWB=%s\" target=\"_blank\">%s</a>"
+msgstr ""
+"DHL Tracking broches #: <a href=\"http://www.dhl.com/en/express/tracking."
+"html?AWB=%s\" target=\"_blank\">%s</a>"
+
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin.php:934
+#, php-format
+msgid "DHL Express Create Shipment Error:%s"
+msgstr "DHL Express Créer une erreur d'envoi:%s"
+
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin.php:938
+#, php-format
+msgid "DHL Express Return Shipment Error:%s"
+msgstr "DHL Express retour expédition erreur : %s"
+
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin.php:1077
+msgid "Shipment Label"
+msgstr "Étiquette d’expédition"
+
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin.php:1078
+msgid "Reset Shipment"
+msgstr "Expédition de réinitialisation"
+
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin.php:1102
+msgid "Process Return Shipment"
+msgstr "Traiter l’envoi retour"
+
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin.php:1136
+msgid "Generate Return Packages"
+msgstr "Générer des paquets retour"
+
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin.php:1166
+msgid "Return Package(s)"
+msgstr "Forfait retour"
+
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin.php:1169
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin.php:1459
+msgid "Item(s)"
+msgstr "Décor(s)"
+
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin.php:1171
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin.php:1461
+#: dhl_paket/includes/html-wf-box-packing.php:37
+msgid "Length"
+msgstr "Longueur"
+
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin.php:1172
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin.php:1462
+#: dhl_paket/includes/html-wf-box-packing.php:38
+msgid "Width"
+msgstr "Largeur"
+
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin.php:1173
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin.php:1463
+#: dhl_paket/includes/html-wf-box-packing.php:39
+msgid "Height"
+msgstr "Hauteur"
+
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin.php:1174
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin.php:1464
+msgid "Insurance"
+msgstr "Assurance"
+
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin.php:1235
+msgid "Create Return Shipment"
+msgstr "Créer d’expédition retour"
+
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin.php:1236
+msgid "Back"
+msgstr "Retour"
+
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin.php:1426
+#: dhl_express/includes/settings/dhl_labels_settings.php:184
+msgid "Return Label"
+msgstr "étiquette de renvoi"
+
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin.php:1427
+msgid "Reset Return Label"
+msgstr "Étiquette de retour de réinitialisation"
+
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin.php:1506
+msgid "Regenerate Packages"
+msgstr "Régénérer les paquets"
+
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin.php:1506
+msgid "Regenerate"
+msgstr "Régénérer"
+
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin.php:1536
+msgid "Choose Service"
+msgstr "Choisir un Service"
+
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin.php:1541
+msgid "Service Name"
+msgstr "Service Nom"
+
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin.php:1542
+msgid "Delivery Time"
+msgstr "Délais de livraison"
+
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin.php:1543
+msgid "Cost ("
+msgstr "Coût"
+
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin.php:1610
+msgid "Re-Calculate"
+msgstr "Re-calculer"
+
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping-admin.php:1625
+msgid "Cash on Delivery"
+msgstr "Paiement en espèces à la livraison"
+
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping.php:216
+msgid "General"
+msgstr "Généralités"
+
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping.php:217
+msgid "Rates & Services"
+msgstr "Tarifs des Services &"
+
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping.php:218
+msgid "Label & Tracking"
+msgstr "Label & Tracking"
+
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping.php:219
+msgid "Packaging"
+msgstr "Emballage"
+
+#: dhl_express/includes/class-wf-dhl-woocommerce-shipping.php:220
+msgid "License "
+msgstr "License"
+
+#: dhl_express/includes/class-wf-tracking-admin.php:103
+#: dhl_paket/includes/class-wf-tracking-admin.php:51
+msgid "Shipping Detail"
+msgstr "Détail de la livraison"
+
+#: dhl_express/includes/class-wf-tracking-admin.php:253
+#: dhl_paket/includes/class-wf-tracking-admin.php:93
+msgid "Shipment ID"
+msgstr "Numéro d'envoi"
+
+#: dhl_express/includes/class-wf-tracking-admin.php:253
+#: dhl_paket/includes/class-wf-tracking-admin.php:93
+msgid "Follow link for detailed status."
+msgstr "Suivez le lien pour l’état détaillé."
+
+#: dhl_express/includes/class-wf-tracking-admin.php:254
+#: dhl_paket/includes/class-wf-tracking-admin.php:94
+msgid "Status"
+msgstr "État"
+
+#: dhl_express/includes/class-wf-tracking-admin.php:264
+#: dhl_paket/includes/class-wf-tracking-admin.php:104
+msgid ""
+"Unable to update real time status at this point of time. Please follow the "
+"link on shipment id to check status."
+msgstr ""
+"Impossible de mettre à jour de statut en temps réel à ce point du temps. "
+"Veuillez suivre le lien sur l’id d’expédition pour vérifier l’État."
+
+#: dhl_express/includes/class-wf-tracking-admin.php:297
+#: dhl_paket/includes/class-wf-tracking-admin.php:137
+msgid "Sorry, Unable to proceed."
+msgstr "Désolé, Impossible de continuer."
+
+#: dhl_express/includes/class-wf-tracking-admin.php:300
+#: dhl_paket/includes/class-wf-tracking-admin.php:140
+msgid ""
+"Unable to track the shipment. Please cross check shipment id or try after "
+"some time."
+msgstr ""
+"Incapable de suivre l’expédition. S’il vous plaît Croix cocher expédition id "
+"ou essayer après un certain temps."
+
+#: dhl_express/includes/class-wf-tracking-admin.php:309
+#: dhl_paket/includes/class-wf-tracking-admin.php:149
+msgid "Tracking is unset."
+msgstr "Le suivi est désactivé."
+
+#: dhl_express/includes/class-wf-tracking-admin.php:312
+#: dhl_paket/includes/class-wf-tracking-admin.php:152
+msgid "Tracking Data is reset to default."
+msgstr "Les données de suivi sont remis à zéro par défaut."
+
+#: dhl_express/includes/class-wf-tracking-admin.php:357
+#: dhl_paket/includes/class-wf-tracking-admin.php:199
+msgid "None"
+msgstr "Aucun"
+
+#: dhl_express/includes/class-wf-tracking-admin.php:360
+#: dhl_express/includes/data-wf-default-values.php:21
+#: dhl_express/includes/settings/dhl_rates_settings.php:11
+#: dhl_express/includes/settings/dhl_rates_settings.php:59
+msgid "DHL"
+msgstr "DHL"
+
+#: dhl_express/includes/class-wf-tracking-admin.php:364
+#: dhl_paket/includes/class-wf-tracking-admin.php:206
+msgid "Enter Tracking IDs"
+msgstr "Entrez l’ID de suivi"
+
+#: dhl_express/includes/class-wf-tracking-admin.php:366
+#: dhl_paket/includes/class-wf-tracking-admin.php:207
+msgid "Comma separated, in case of multiple shipment ids for this order."
+msgstr ""
+"Séparées par des virgules, dans le cas de plusieurs identifiants de "
+"livraison pour cette commande."
+
+#: dhl_express/includes/class-wf-tracking-admin.php:369
+#: dhl_paket/includes/class-wf-tracking-admin.php:210
+msgid "This field is Optional."
+msgstr "Ce champ est facultatif."
+
+#: dhl_express/includes/class-wf-tracking-admin.php:373
+#: dhl_paket/includes/class-wf-tracking-admin.php:214
+msgid "Save/Show Tracking Info"
+msgstr "Enregistrer/afficher d’informations de suivi"
+
+#: dhl_express/includes/dhl-extra-fields-show.php:35
+msgid "Est delivery: "
+msgstr "Livraison à l'Est:"
+
+#: dhl_express/includes/dhl-extra-fields-show.php:55
+msgid "Taxes: "
+msgstr "Taxes"
+
+#: dhl_express/includes/dhl-extra-fields-show.php:57
+msgid "Weight Charges: "
+msgstr "Frais de poids:"
+
+#: dhl_express/includes/dhl-extra-fields-show.php:57
+msgid "DHL Handling Charges: "
+msgstr "Frais de manutention"
+
+#: dhl_express/includes/fpdf/wf-dhl-commercial-invoice-template.php:261
+msgid "Tax ID#: "
+msgstr "Identification fiscale"
+
+#: dhl_express/includes/html-wf-box-packing.php:47
+msgid "Outer Length"
+msgstr "Longueur extérieure"
+
+#: dhl_express/includes/html-wf-box-packing.php:48
+msgid "Outer Width"
+msgstr "Largeur externe"
+
+#: dhl_express/includes/html-wf-box-packing.php:49
+msgid "Outer Height"
+msgstr "Hauteur externe"
+
+#: dhl_express/includes/html-wf-box-packing.php:50
+msgid "Inner Length"
+msgstr "Longueur interne"
+
+#: dhl_express/includes/html-wf-box-packing.php:51
+msgid "Inner Width"
+msgstr "Largeur"
+
+#: dhl_express/includes/html-wf-box-packing.php:52
+msgid "Inner Height"
+msgstr "Hauteur interne"
+
+#: dhl_express/includes/html-wf-box-packing.php:53
+#: dhl_paket/includes/html-wf-box-packing.php:40
+msgid "Box Weight"
+msgstr "Poids de boîte"
+
+#: dhl_express/includes/html-wf-box-packing.php:54
+#: dhl_paket/includes/html-wf-box-packing.php:41
+msgid "Max Weight"
+msgstr "Poids maximum"
+
+#: dhl_express/includes/html-wf-box-packing.php:56
+msgid "Package Type"
+msgstr "Type d'abonnement"
+
+#: dhl_express/includes/html-wf-box-packing.php:62
+#: dhl_paket/includes/html-wf-box-packing.php:48
+msgid "Add Box"
+msgstr "Ajouter une boîte"
+
+#: dhl_express/includes/html-wf-box-packing.php:63
+#: dhl_paket/includes/html-wf-box-packing.php:49
+msgid "Remove selected box(es)"
+msgstr "Supprimer la boîte sélectionée"
+
+#: dhl_express/includes/html-wf-box-packing.php:66
+#: dhl_paket/includes/html-wf-box-packing.php:52
+msgid ""
+"Preloaded the Dimension and Weight in unit Inches and Pound. If you have "
+"selected unit as Centimetre and Kilogram please convert it accordingly."
+msgstr ""
+"Préchargée de la Dimension et le poids en pouces de l’unité et de la livre. "
+"Si vous avez sélectionné unité comme centimètre et kilogramme s’il vous "
+"plaît le convertir en conséquence."
+
+#: dhl_express/includes/html-wf-services.php:3
+msgid "Shipping Services & Price Adjustments"
+msgstr "Services de transport maritime & ajustements de prix"
+
+#: dhl_express/includes/settings/dhl_general_settings.php:163
+msgid "DHL Account Information"
+msgstr "Information Compte"
+
+#: dhl_express/includes/settings/dhl_general_settings.php:163
+msgid ""
+"For getting SiteID and password for countries other than the United States "
+"(UK and Rest of the World), the customer should contact DHL account manager. "
+"The account manager must request integration with WooForce/XAdapter via DHL "
+"Presales Department.\n"
+"\n"
+"\t\t\tFor getting SiteID and Password for the United States, you need to "
+"write to xmlrequests@dhl.com along with your full Account details like "
+"account number, region, address, etc. to get API Access.\n"
+"\n"
+"\t\t\tFor getting SiteID and Password for Australia, you are prompted to "
+"contact DHL Express by e-mailing onlineshipping.au@dhl.com."
+msgstr ""
+
+#: dhl_express/includes/settings/dhl_general_settings.php:174
+#: dhl_express/includes/settings/dhl_general_settings.php:177
+msgid "Test Mode"
+msgstr "Mode test"
+
+#: dhl_express/includes/settings/dhl_general_settings.php:175
+#: dhl_express/includes/settings/dhl_general_settings.php:178
+msgid "Live Mode"
+msgstr "Mode live"
+
+#: dhl_express/includes/settings/dhl_general_settings.php:183
+#: dhl_paket/includes/data-wf-settings.php:29
+msgid "Account Number"
+msgstr "Numéro de compte"
+
+#: dhl_express/includes/settings/dhl_general_settings.php:183
+msgid ""
+"Enter your DHL online account number as obtained from DHL. You can contact "
+"your DHL sales representative for this."
+msgstr ""
+"Entrez votre numéro de compte en ligne de DHL de DHL. Vous pouvez contacter "
+"votre représentant commercial de DHL pour cela."
+
+#: dhl_express/includes/settings/dhl_general_settings.php:188
+msgid "You can get the SITE ID from the DHL integration team."
+msgstr "Vous pouvez obtenir l’ID de SITE de l’équipe d’intégration de DHL."
+
+#: dhl_express/includes/settings/dhl_general_settings.php:193
+msgid "You can get the PASSWORD from the DHL integration team."
+msgstr "Vous pouvez obtenir le mot de passe de l’équipe d’intégration de DHL."
+
+#: dhl_express/includes/settings/dhl_general_settings.php:212
+#: dhl_express/includes/settings/dhl_labels_settings.php:41
+msgid "Enable/Disable"
+msgstr "Activer/Désactiver"
+
+#: dhl_express/includes/settings/dhl_general_settings.php:217
+msgid "Enable Real time Rates"
+msgstr "Activez les taux en temps réel"
+
+#: dhl_express/includes/settings/dhl_general_settings.php:217
+msgid "Enable this to fetch the rates from DHL in cart/checkout page."
+msgstr ""
+"Activer celui-ci aller chercher les tarifs de DHL en page panier/Commander."
+
+#: dhl_express/includes/settings/dhl_general_settings.php:220
+msgid "Enable Shipping Label"
+msgstr "Activez l’étiquette d’expédition"
+
+#: dhl_express/includes/settings/dhl_general_settings.php:220
+msgid ""
+"This option allows the user to create a label in the order admin page. "
+"Disabling it will hide the label creation option."
+msgstr ""
+"Cette option permet à l’utilisateur créer une étiquette dans la page d’admin "
+"de commande. Désactivez-le masquera l’option de création d’étiquette."
+
+#: dhl_express/includes/settings/dhl_general_settings.php:223
+msgid "Enable Insurance"
+msgstr "Permettre à l’assurance"
+
+#: dhl_express/includes/settings/dhl_general_settings.php:223
+msgid ""
+"Enable this to insure your products. The insured value will be the total "
+"cart value."
+msgstr ""
+"Cocher pour assurer vos produits. La valeur assurée sera la valeur totale de "
+"chariot."
+
+#: dhl_express/includes/settings/dhl_general_settings.php:226
+msgid "Enable Developer Mode"
+msgstr "Activer le mode express"
+
+#: dhl_express/includes/settings/dhl_general_settings.php:226
+msgid ""
+"Enable this option to troubleshoot the plugin. On enabling this, request and "
+"response information will be shown in the cart/checkout page."
+msgstr ""
+"Activez cette option pour dépanner le plugin. Sur permettre ceci, "
+"informations de requête et réponse seront affichera dans la page panier/"
+"Commander."
+
+#: dhl_express/includes/settings/dhl_general_settings.php:232
+msgid "Default Currency"
+msgstr "Devise par Défaut"
+
+#: dhl_express/includes/settings/dhl_general_settings.php:237
+msgid ""
+"This field picks the default currency of the country provided in \"Country\" "
+"of \"Shipper Address\" tab."
+msgstr ""
+"Ce champ prend la devise par défaut du pays fourni dans les « Pays » de "
+"l’onglet « Adresse de l’expéditeur »."
+
+#: dhl_express/includes/settings/dhl_general_settings.php:246
+msgid "Converstion Rate"
+msgstr "Taux de conversion"
+
+#: dhl_express/includes/settings/dhl_general_settings.php:258
+msgid "Shipper Address"
+msgstr "Adresse de l’expéditeur"
+
+#: dhl_express/includes/settings/dhl_general_settings.php:266
+msgid "Shipper Name"
+msgstr "Nom de l'expéditeur"
+
+#: dhl_express/includes/settings/dhl_general_settings.php:266
+msgid "Name of the person responsible for shipping."
+msgstr "Nom de la personne responsable de l’expédition."
+
+#: dhl_express/includes/settings/dhl_general_settings.php:272
+msgid "Company Name"
+msgstr "Nom de ta fac, ou école"
+
+#: dhl_express/includes/settings/dhl_general_settings.php:272
+msgid "Company name of the shipper."
+msgstr "Nom de la société de l’expéditeur."
+
+#: dhl_express/includes/settings/dhl_general_settings.php:282
+msgid "Phone Number"
+msgstr "Numéro de téléphone"
+
+#: dhl_express/includes/settings/dhl_general_settings.php:282
+msgid "Phone number of the shipper."
+msgstr "Numéro de téléphone de l’expéditeur."
+
+#: dhl_express/includes/settings/dhl_general_settings.php:289
+msgid "Email Address"
+msgstr "Adresse Email"
+
+#: dhl_express/includes/settings/dhl_general_settings.php:289
+msgid "Email address of the shipper."
+msgstr "Adresse e-mail de l’expéditeur."
+
+#: dhl_express/includes/settings/dhl_general_settings.php:299
+msgid "Address Line 1"
+msgstr "Adresse 1"
+
+#: dhl_express/includes/settings/dhl_general_settings.php:299
+msgid "Official address line 1 of the shipper."
+msgstr "Ligne 1 d’adresse officielle de l’expéditeur."
+
+#: dhl_express/includes/settings/dhl_general_settings.php:307
+msgid "Address Line 2"
+msgstr "Adresse 2"
+
+#: dhl_express/includes/settings/dhl_general_settings.php:307
+msgid "Official address line 2 of the shipper."
+msgstr "Ligne 2 d’adresse officielle de l’expéditeur."
+
+#: dhl_express/includes/settings/dhl_general_settings.php:316
+msgid "City"
+msgstr "Localisation"
+
+#: dhl_express/includes/settings/dhl_general_settings.php:316
+msgid "City of the shipper."
+msgstr "Ville de l’expéditeur."
+
+#: dhl_express/includes/settings/dhl_general_settings.php:324
+msgid "State"
+msgstr "État"
+
+#: dhl_express/includes/settings/dhl_general_settings.php:324
+msgid "State of the shipper."
+msgstr "État de l’expéditeur."
+
+#: dhl_express/includes/settings/dhl_general_settings.php:331
+msgid "Country"
+msgstr "Pays"
+
+#: dhl_express/includes/settings/dhl_general_settings.php:331
+msgid "Country of the shipper(Used for fetching rates and label generation)."
+msgstr ""
+"Pays de l’expéditeur (utilisé pour l’extraction de tarifs et génération de "
+"l’étiquette)."
+
+#: dhl_express/includes/settings/dhl_general_settings.php:354
+msgid "Postal Code"
+msgstr "Code postal"
+
+#: dhl_express/includes/settings/dhl_general_settings.php:354
+msgid ""
+"Postal code of the shipper(Used for fetching rates and label generation)."
+msgstr ""
+"Code postal de l’expéditeur (utilisé pour l’extraction de tarifs et "
+"génération de l’étiquette)."
+
+#: dhl_express/includes/settings/dhl_general_settings.php:366
+#: dhl_express/includes/settings/dhl_labels_settings.php:226
+#: dhl_express/includes/settings/dhl_packing_settings.php:164
+#: dhl_express/includes/settings/dhl_rates_settings.php:102
+msgid "Save Changes"
+msgstr "Enregistrer les modifications"
+
+#: dhl_express/includes/settings/dhl_labels_settings.php:6
+msgid "Shipper"
+msgstr "Affréteur"
+
+#: dhl_express/includes/settings/dhl_labels_settings.php:6
+msgid "Recipient"
+msgstr "Destinataire"
+
+#: dhl_express/includes/settings/dhl_labels_settings.php:6
+msgid "Third Party/Other"
+msgstr "Troisième partie/autres"
+
+#: dhl_express/includes/settings/dhl_labels_settings.php:45
+msgid "Enable PaperLess Trade (PLT)"
+msgstr "Permettre un commerce sans papier (PLT)"
+
+#: dhl_express/includes/settings/dhl_labels_settings.php:45
+msgid ""
+"On enabling this, DHL's paperless trade feature will be activated and a "
+"receipt will be generated as a commercial invoice."
+msgstr ""
+"Le permettre ceci, fonctionnalité de commerce sans papier de DHL sera "
+"activée et un reçu sera généré comme une facture commerciale."
+
+#: dhl_express/includes/settings/dhl_labels_settings.php:48
+msgid "Enable Saturday Delivery (SD)"
+msgstr "Activez la livraison le samedi (SD)"
+
+#: dhl_express/includes/settings/dhl_labels_settings.php:48
+msgid ""
+"Special service. On activating this feature, the shipment can be delivered "
+"on Saturdays."
+msgstr ""
+"Service spécial. Sur l’activation de cette fonctionnalité, l’expédition peut "
+"être livrée le samedi."
+
+#: dhl_express/includes/settings/dhl_labels_settings.php:51
+msgid "Enable Cash On Delivery (COD)"
+msgstr "Activer le paiement à la livraison"
+
+#: dhl_express/includes/settings/dhl_labels_settings.php:51
+msgid ""
+"Special service. On activating this option, the shipment is created with "
+"Cash on delivery option."
+msgstr ""
+"Service spécial. Sur l’activation de cette option, la livraison est créée "
+"avec de l’argent sur l’option de livraison."
+
+#: dhl_express/includes/settings/dhl_labels_settings.php:55
+msgid "Enable Default Service for Label Generation"
+msgstr "Activez le Service par défaut pour la génération de l’étiquette"
+
+#: dhl_express/includes/settings/dhl_labels_settings.php:55
+msgid ""
+"On enabling this option, the services shown in the cart/checkout page will "
+"only be reflected while creating shipment."
+msgstr ""
+"Sur l’activation de cette option, les services affichés dans la page panier/"
+"Commander figurera uniquement lors de la création d’expédition."
+
+#: dhl_express/includes/settings/dhl_labels_settings.php:58
+msgid "Latin Language Encoding"
+msgstr "Codage de langue latine"
+
+#: dhl_express/includes/settings/dhl_labels_settings.php:58
+msgid "UTF-8 encoding used."
+msgstr "Codage UTF-8"
+
+#: dhl_express/includes/settings/dhl_labels_settings.php:69
+msgid "Printing Size"
+msgstr "Taille d’impression"
+
+#: dhl_express/includes/settings/dhl_labels_settings.php:69
+msgid ""
+"This option allows you to choose the size of the label among various "
+"options. Three file formats are supported for the labels - PDF, ZPL2, EPL2."
+msgstr ""
+"Cette option vous permet de choisir la taille de l’étiquette parmi "
+"différentes options. Trois formats de fichiers sont pris en charge pour les "
+"étiquettes - PDF, ZPL2, EPL2."
+
+#: dhl_express/includes/settings/dhl_labels_settings.php:107
+msgid "Shipping Content"
+msgstr "Contenu de la livraison"
+
+#: dhl_express/includes/settings/dhl_labels_settings.php:110
+msgid "Shipping Content Description"
+msgstr "Description du contenu d’expédition"
+
+#: dhl_express/includes/settings/dhl_labels_settings.php:118
+msgid "Company Logo"
+msgstr "Logo de l'entreprise"
+
+#: dhl_express/includes/settings/dhl_labels_settings.php:121
+msgid "Select Company Logo"
+msgstr "Sélectionner la société"
+
+#: dhl_express/includes/settings/dhl_labels_settings.php:121
+msgid ""
+"This option allows you to upload your own company logo which will be visible "
+"in shipping labels and return labels."
+msgstr ""
+"Cette option vous permet de télécharger votre propre logo qui sera visible "
+"dans les étiquettes d’expédition, étiquettes de retour."
+
+#: dhl_express/includes/settings/dhl_labels_settings.php:122
+msgid "Choose Image"
+msgstr "Choisir une image"
+
+#: dhl_express/includes/settings/dhl_labels_settings.php:129
+msgid "Duty Payment"
+msgstr "Obligation de paiement"
+
+#: dhl_express/includes/settings/dhl_labels_settings.php:132
+msgid "Payment on"
+msgstr "Paiement pour"
+
+#: dhl_express/includes/settings/dhl_labels_settings.php:132
+msgid ""
+"Duty and tax charge payment type. It is required for non-doc or dutiable "
+"products."
+msgstr ""
+"Droits et taxes de charge type de paiement. Il est nécessaire pour les "
+"produits passibles de droits ou de non-doc."
+
+#: dhl_express/includes/settings/dhl_labels_settings.php:153
+msgid "Duty Account Number"
+msgstr "Numéro de compte"
+
+#: dhl_express/includes/settings/dhl_labels_settings.php:153
+msgid ""
+"Duty Billing account number. Required if the DutyPaymentType is Third Party."
+msgstr ""
+"Numéro de compte de facturation de service. Obligatoire si le "
+"DutyPaymentType a des tiers."
+
+#: dhl_express/includes/settings/dhl_labels_settings.php:162
+msgid "Archive Air Waybill"
+msgstr "Archive de transport aérien"
+
+#: dhl_express/includes/settings/dhl_labels_settings.php:165
+msgid "Request Archive Air Waybill"
+msgstr "Demande de transport aérien Archive"
+
+#: dhl_express/includes/settings/dhl_labels_settings.php:165
+msgid "For downloading archive airway bill Documents."
+msgstr "Pour le téléchargement des voies aériennes d’archives bill Documents."
+
+#: dhl_express/includes/settings/dhl_labels_settings.php:171
+#: dhl_express/includes/settings/dhl_labels_settings.php:174
+msgid "One Document"
+msgstr "Un seul Document"
+
+#: dhl_express/includes/settings/dhl_labels_settings.php:172
+#: dhl_express/includes/settings/dhl_labels_settings.php:175
+msgid "Two Documents"
+msgstr "Deux Documents"
+
+#: dhl_express/includes/settings/dhl_labels_settings.php:187
+msgid "Enable Return Label"
+msgstr "Activer l’étiquette de retour"
+
+#: dhl_express/includes/settings/dhl_labels_settings.php:187
+msgid ""
+"This option allows the plugin to provide the return label feature in the "
+"order page."
+msgstr ""
+"Cette option permet le plugin fournir la fonctionnalité de l’étiquette de "
+"retour à la page de commande."
+
+#: dhl_express/includes/settings/dhl_labels_settings.php:191
+msgid "Return Label Account Number"
+msgstr "Retourner l’étiquette numéro de compte"
+
+#: dhl_express/includes/settings/dhl_labels_settings.php:191
+msgid "Fill in the import account number provided by DHL for return labels."
+msgstr ""
+"Renseignez le numéro de compte d’importation prévu par DHL pour les "
+"étiquettes de retour."
+
+#: dhl_express/includes/settings/dhl_labels_settings.php:199
+msgid "Tracking"
+msgstr "Suivi"
+
+#: dhl_express/includes/settings/dhl_labels_settings.php:203
+msgid "Enable Tracking"
+msgstr "Activer le suivi"
+
+#: dhl_express/includes/settings/dhl_labels_settings.php:203
+msgid ""
+"Enable this to activate the tracking feature of the plugin.\n"
+"Custom tracking message - Provide your own tracking message which will be "
+"displayed in the order completion email. "
+msgstr ""
+"Cocher pour activer la fonction de suivi du plugin.\n"
+"Suivi personnalisé message - fournir votre propre message de suivi qui sera "
+"affiché dans l’email de fin de commande."
+
+#: dhl_express/includes/settings/dhl_labels_settings.php:211
+msgid "DHL Email Service"
+msgstr "Service Email"
+
+#: dhl_express/includes/settings/dhl_labels_settings.php:214
+msgid "DHL Tracking Message to Customers"
+msgstr "DHL Tracking Message aux clients"
+
+#: dhl_express/includes/settings/dhl_labels_settings.php:214
+msgid "DHL sent the Shipment details to customers."
+msgstr "DHL a envoyé les détails de l’expédition aux clients."
+
+#: dhl_express/includes/settings/dhl_labels_settings.php:218
+msgid "Shipper Message"
+msgstr "Message de l’expéditeur"
+
+#: dhl_express/includes/settings/dhl_labels_settings.php:218
+msgid "Shipper Message to customers."
+msgstr "Message de l’expéditeur aux clients."
+
+#: dhl_express/includes/settings/dhl_packing_settings.php:4
+msgid "DHL Box"
+msgstr "Boîte de DHL"
+
+#: dhl_express/includes/settings/dhl_packing_settings.php:5
+#: dhl_paket/includes/data-wf-settings.php:139
+msgid "Pack heavier items first"
+msgstr "Emballer les articles plus lourds d’abord"
+
+#: dhl_express/includes/settings/dhl_packing_settings.php:5
+msgid "Pack lighter items first"
+msgstr "Emballer les articles plus légers tout d’abord"
+
+#: dhl_express/includes/settings/dhl_packing_settings.php:5
+msgid "Pack purely divided by weight"
+msgstr "Pack purement divisée par le poids"
+
+#: dhl_express/includes/settings/dhl_packing_settings.php:77
+msgid "Packing Options"
+msgstr "Options de conditionnement"
+
+#: dhl_express/includes/settings/dhl_packing_settings.php:80
+#: dhl_paket/includes/data-wf-settings.php:114
+msgid "Parcel Packing Method"
+msgstr "Méthode d'emballage par colis"
+
+#: dhl_express/includes/settings/dhl_packing_settings.php:80
+msgid ""
+"Select the Packing method using which you want to pack your products.  Pack "
+"items individually - This option allows you to pack each item separately in "
+"a box. Hence, multiple items will go in multiple boxes. \n"
+" Pack into boxes with weights and dimensions - This option allows you to "
+"pack items into boxes of various sizes. \n"
+" Weight based packing - This option allows you to pack your products based "
+"on weight of the package."
+msgstr ""
+"Sélectionnez la méthode d'emballage à l'aide de laquelle vous souhaitez "
+"emballer vos produits. Pack des éléments individuellement - Cette option "
+"vous permet d'emballer chaque élément séparément dans une boîte. Par "
+"conséquent, plusieurs éléments seront diffusés dans plusieurs boîtes. Pack "
+"dans des boîtes avec des poids et des dimensions - Cette option vous permet "
+"de charger des éléments dans des boîtes de différentes tailles. Emballage à "
+"base de poids - Cette option vous permet d'emballer vos produits en fonction "
+"du poids du paquet."
+
+#: dhl_express/includes/settings/dhl_packing_settings.php:87
+#: dhl_paket/includes/data-wf-settings.php:119
+msgid "Default: Pack items individually"
+msgstr "Par défaut : Emballer les articles individuellement"
+
+#: dhl_express/includes/settings/dhl_packing_settings.php:88
+#: dhl_paket/includes/data-wf-settings.php:120
+msgid "Recommended: Pack into boxes with weights and dimensions"
+msgstr "Recommandé : Emballer dans des boîtes avec des poids et dimensions"
+
+#: dhl_express/includes/settings/dhl_packing_settings.php:89
+#: dhl_paket/includes/data-wf-settings.php:121
+msgid "Weight based: Calculate shipping on the basis of order total weight"
+msgstr ""
+"Poids de base : calculer expédition sur la base du poids total de commande"
+
+#: dhl_express/includes/settings/dhl_packing_settings.php:95
+#: dhl_express/includes/settings/dhl_packing_settings.php:98
+msgid "Use Pounds,Inches (lbs,in) "
+msgstr "Utiliser des livres, pouces (lbs, en)"
+
+#: dhl_express/includes/settings/dhl_packing_settings.php:96
+msgid "Kilograms,Centimeters (Kg,cm)"
+msgstr "Kilogrammes, centimètres (Kg, cm)"
+
+#: dhl_express/includes/settings/dhl_packing_settings.php:99
+msgid "Use Kilograms,Centimeters (Kg,cm)"
+msgstr "Utilisation kilogrammes, centimètres (Kg, cm)"
+
+#: dhl_express/includes/settings/dhl_packing_settings.php:112
+#: dhl_express/includes/settings/dhl_packing_settings.php:137
+msgid "Pack items individually <br/>(Package Type)"
+msgstr "Emballer les articles individuellement<br>(Type de package)"
+
+#: dhl_express/includes/settings/dhl_packing_settings.php:140
+msgid "Maximum Weight / Packing"
+msgstr "Poids maximum / emballage"
+
+#: dhl_express/includes/settings/dhl_packing_settings.php:140
+msgid ""
+"This option will allow each box to hold the maximum value provided in the "
+"field. \n"
+"Box Sizes - This section allows you to create your own box size(dimensions) "
+"and provide the box weight."
+msgstr ""
+"Cette option permettra à chaque boîte contenir la valeur maximale dans la "
+"zone. \n"
+"Dimensions de la boîte - cette section vous permet de créer votre propre "
+"boîte size(dimensions) et de fournir le poids de la boîte."
+
+#: dhl_express/includes/settings/dhl_rates_settings.php:32
+msgid "Show/Hide"
+msgstr "Afficher / Masquer"
+
+#: dhl_express/includes/settings/dhl_rates_settings.php:37
+msgid "Show Delivery Time"
+msgstr "Heure du ramassage"
+
+#: dhl_express/includes/settings/dhl_rates_settings.php:37
+msgid ""
+"on enabling this, estimated delivery date will shown for each service of DHL."
+msgstr ""
+"sur l’activation de cette, date de livraison estimée affichée pour chaque "
+"service de DHL."
+
+#: dhl_express/includes/settings/dhl_rates_settings.php:40
+msgid "Show DHL Account Rates"
+msgstr "Présentent des taux de compte DHL"
+
+#: dhl_express/includes/settings/dhl_rates_settings.php:40
+msgid ""
+"On enabling this, the plugin will fetch the account specific rates of the "
+"shipper."
+msgstr ""
+"Sur l’activation de cela, le plugin va chercher le compte des taux "
+"spécifiques de l’expéditeur."
+
+#: dhl_express/includes/settings/dhl_rates_settings.php:44
+msgid "Show Break Down Charges"
+msgstr "Voir la répartition frais"
+
+#: dhl_express/includes/settings/dhl_rates_settings.php:44
+msgid ""
+"On enabling this, the customer will be shown the breakdown of shipping "
+"charges in the cart/checkout page. The breakdown includes weight charges, "
+"DHL handling charges, remote area surchage."
+msgstr ""
+"Sur l’activation de cela, le client sera montré la répartition des frais "
+"d’expédition dans la page panier/Commander. La ventilation comprend des "
+"charges de poids, frais de manutention de DHL, Supplément région éloignée."
+
+#: dhl_express/includes/settings/dhl_rates_settings.php:48
+msgid "Show Cheapest Rates Only"
+msgstr "Afficher les tarifs les moins chers seulement"
+
+#: dhl_express/includes/settings/dhl_rates_settings.php:48
+msgid ""
+"On enabling this, the cheapest rate will be shown in the cart/checkout page."
+msgstr ""
+"Sur l’activation de cela, les moindres s’affichera dans la page panier/"
+"Commander."
+
+#: dhl_express/includes/settings/dhl_rates_settings.php:54
+msgid "Method Config"
+msgstr "Config de la méthode"
+
+#: dhl_express/includes/settings/dhl_rates_settings.php:57
+msgid "Method Title / Availability"
+msgstr "Titre de la méthode / disponibilité"
+
+#: dhl_express/includes/settings/dhl_rates_settings.php:57
+msgid ""
+"Provide the Method title which will be reflected as the service name if "
+"\"Show cheapest rates only\" is enabled."
+msgstr ""
+"Indiquer le titre de méthode qui figurera comme le nom du service si « Show "
+"moins cher tarifs uniquement » est activé."
+
+#: dhl_express/includes/settings/dhl_rates_settings.php:65
+#: dhl_express/includes/settings/dhl_rates_settings.php:68
+msgid "Supports All Conturies"
+msgstr "Prend en charge tous les Conturies"
+
+#: dhl_express/includes/settings/dhl_rates_settings.php:66
+#: dhl_express/includes/settings/dhl_rates_settings.php:73
+msgid "Specific Countries"
+msgstr "Pays spécifiques"
+
+#: dhl_express/includes/settings/dhl_rates_settings.php:69
+msgid "Supports Specific Countries"
+msgstr "Soutient les pays particuliers"
+
+#: dhl_express/includes/settings/dhl_rates_settings.php:73
+msgid ""
+"You can select the shipping method to be available for all countries or "
+"selective countries."
+msgstr ""
+"Vous pouvez sélectionner le mode de livraison disponible pour tous les pays "
+"ou les pays sélectives."
+
+#: dhl_paket/includes/class-wf-admin-options.php:20
+msgid "Visual check of age"
+msgstr "Contrôle visuel de l’âge"
+
+#: dhl_paket/includes/class-wf-admin-options.php:21
+msgid "Order recipient's age must be over 18"
+msgstr "Âge de l’ordre du destinataire doit correspondre à plus de 18 ans"
+
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping-admin-helper.php:121
+msgid "Product # is missing weight."
+msgstr "Produit # est manque de poids."
+
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping-admin-helper.php:122
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping-admin-helper.php:323
+msgid "Product is missing weight."
+msgstr "Produit est manquant de poids."
+
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping-admin-helper.php:222
+msgid "Product is missing dimensions. Aborting."
+msgstr "Produit #%d manque des dimensions. Abandon."
+
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping-admin-helper.php:750
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping-admin-helper.php:811
+msgid "Unexpected error while get package."
+msgstr "Erreur inattendue tout en paquet de get."
+
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping-admin-helper.php:792
+#, php-format
+msgid "Order #%d: %s"
+msgstr "Commande n°%d - %s"
+
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:292
+#, php-format
+msgid ""
+"Error message: %s <br><b>At least one shipment have occurred an error, "
+"proceeding might loss some packages. Please Remove shipment and Create again."
+"</b>"
+msgstr ""
+"Message d’erreur : %s<br><b>Au moins une expédition ont eu lieu à une "
+"erreur, instance pourrait perte des paquets. S’il vous plaît supprimer "
+"expédition et créer à nouveau.</b>"
+
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:336
+msgid "Get Export Document"
+msgstr "Exporter le document"
+
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:344
+msgid "Do Manifest"
+msgstr "Manifestent-elles"
+
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:345
+msgid ""
+"Before performing a \"Do Manifest\", Printing label is mandatory. Note : "
+"After manifest generation, labels will not be available for downloads."
+msgstr ""
+"Avant d’effectuer un « manifeste de faire », impression étiquette est "
+"obligatoire. Remarque : Après la génération du manifeste, étiquettes ne sera "
+"pas disponibles pour les téléchargements."
+
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:374
+msgid "Clear History"
+msgstr "Effacez l'historique"
+
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:379
+msgid "Remove Shipment"
+msgstr "Supprimer l’expédition"
+
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:388
+msgid "Step 1: Auto generate packages."
+msgstr "Étape 1 : Auto générer des packages."
+
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:390
+msgid "Step 2: Initiate your shipment."
+msgstr "Etape 2 : Lancer votre envoi."
+
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:392
+msgid "Include Return Label"
+msgstr "Inclure l’étiquette de retour"
+
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:394
+msgid "Cash On Delivery"
+msgstr "Paiement à la livraison"
+
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:404
+msgid "Insur."
+msgstr "Titres ( autres qu&apos; actions )"
+
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:426
+msgid "Add Package"
+msgstr "Ajouter un abonnement"
+
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:611
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:612
+msgid "Create DHL Paket Shipment"
+msgstr "Créez DHL Paket expédition"
+
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:614
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:615
+msgid "Void DHL Paket Shipment"
+msgstr "Void DHL Paket expédition"
+
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:633
+#, php-format
+msgid "Order #%d: Shipment generated sucessfully."
+msgstr "Commander #% d: expédition générée avec succès."
+
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:636
+#, php-format
+msgid "Order #%d: Please remove existing shipments before creating new."
+msgstr ""
+"Ordre #% d: supprimer s’il vous plaît envois existants avant la création de "
+"nouveaux."
+
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:641
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:658
+msgid "Please select atleast one order"
+msgstr "Merci d'en sélectionner au moins un"
+
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:650
+#, php-format
+msgid "Order #%d: Shipment voided."
+msgstr ""
+
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping-admin.php:653
+#, php-format
+msgid "Order #%d: No shipment is there to void."
+msgstr "Ordre #% d: aucun envoi n’est-il à invalider."
+
+#: dhl_paket/includes/class-wf-dhl-paket-woocommerce-shipping.php:13
+msgid "Print shipping labels via DHL Shipping API."
+msgstr "Imprimer des étiquettes d’expédition via API d’expédition DHL."
+
+#: dhl_paket/includes/class-wf-packstation.php:72
+msgid "Select Packstation"
+msgstr "Sélectionnez Packstation"
+
+#: dhl_paket/includes/class-wf-packstation.php:82
+msgid "Post Number"
+msgstr "Nombre d'articles"
+
+#: dhl_paket/includes/class-wf-packstation.php:83
+msgid "Post number for delivery to the packingstations"
+msgstr "Afficher le nombre pour la livraison aux packingstations"
+
+#: dhl_paket/includes/class-wf-packstation.php:110
+msgid "--Select Packstation--"
+msgstr "--Sélectionnez Packstation--"
+
+#: dhl_paket/includes/class-wf-packstation.php:162
+#, php-format
+msgid "Packstation (%s): "
+msgstr "Packstation (%s) :"
+
+#: dhl_paket/includes/class-wf-tracking-admin.php:232
+msgid "You don't have admin privileges to view this page."
+msgstr ""
+"Vous n’avez pas de privilèges d’administrateur pour afficher cette page."
+
+#: dhl_paket/includes/data-wf-settings.php:15
+msgid "Enable DHL Paket"
+msgstr "Permettre à DHL Paket"
+
+#: dhl_paket/includes/data-wf-settings.php:17
+msgid "Enable this shipping method"
+msgstr "Activer cette méthode de livraison"
+
+#: dhl_paket/includes/data-wf-settings.php:35
+msgid "Return Billing Account Number"
+msgstr "Retourne le numéro de compte de facturation"
+
+#: dhl_paket/includes/data-wf-settings.php:37
+msgid "Leave it blank if return label is not needed"
+msgstr "Aller il blank si retour étiquette n’est pas nécessaire"
+
+#: dhl_paket/includes/data-wf-settings.php:41
+msgid "Production Key"
+msgstr "Clé de production"
+
+#: dhl_paket/includes/data-wf-settings.php:42
+msgid "This is a production key"
+msgstr "Il s’agit d’une clé de la production"
+
+#: dhl_paket/includes/data-wf-settings.php:46
+msgid ""
+"If this is a production API key and not a developer key, check this box."
+msgstr ""
+"Si il s’agit d’une clé API de production et pas une clé développeur, cochez "
+"cette case."
+
+#: dhl_paket/includes/data-wf-settings.php:67
+msgid "API User"
+msgstr "API Utilisateur:"
+
+#: dhl_paket/includes/data-wf-settings.php:69
+msgid "Get API User from DHL and place here"
+msgstr "Obtenir l’API utilisateur de DHL et placer ici"
+
+#: dhl_paket/includes/data-wf-settings.php:76
+msgid "API key"
+msgstr "Clé API"
+
+#: dhl_paket/includes/data-wf-settings.php:78
+msgid "Secret key for API."
+msgstr "Clé secrète pour l’API."
+
+#: dhl_paket/includes/data-wf-settings.php:107
+msgid ""
+"Product dimensions and weight will be converted to the selected unit and "
+"will be passed to DHL. Please change the box dimensions and weight "
+"accordingly as its preloaded with unit Pound and Inches."
+msgstr ""
+"Les dimensions et le poids du produit seront convertis en unité sélectionnée "
+"et seront transmis à DHL. Modifiez les dimensions de la boîte et le poids en "
+"conséquence, car il est préchargé avec l'unité Pound and Ints."
+
+#: dhl_paket/includes/data-wf-settings.php:123
+msgid "Determine how items are packed before being sent to DHL."
+msgstr ""
+"Déterminer comment les éléments sont emballés avant d’être envoyé à DHL."
+
+#: dhl_paket/includes/data-wf-settings.php:126
+msgid "Max Package Weight"
+msgstr "Poids de l'emballage"
+
+#: dhl_paket/includes/data-wf-settings.php:131
+msgid "Maximum weight allowed for single box."
+msgstr "Poids maximum autorisé pour la seule boîte."
+
+#: dhl_paket/includes/data-wf-settings.php:134
+msgid "Packing Process"
+msgstr "procédé d'emballage"
+
+#: dhl_paket/includes/data-wf-settings.php:140
+msgid "Pack lighter items first."
+msgstr "Emballer les articles plus légers tout d’abord."
+
+#: dhl_paket/includes/data-wf-settings.php:141
+msgid "Pack purely divided by weight."
+msgstr "Pack purement divisée par le poids."
+
+#: dhl_paket/includes/data-wf-settings.php:144
+msgid "Select your packing order."
+msgstr "Sélectionnez la commande de votre emballage."
+
+#: dhl_paket/includes/data-wf-settings.php:215
+#: dhl_paket/includes/data-wf-settings.php:221
+#: dhl_paket/includes/data-wf-settings.php:227
+#: dhl_paket/includes/data-wf-settings.php:233
+#: dhl_paket/includes/data-wf-settings.php:239
+#: dhl_paket/includes/data-wf-settings.php:245
+#: dhl_paket/includes/data-wf-settings.php:251
+msgid "Required for label Printing"
+msgstr "Requis pour imprimer l’étiquette"
+
+#: dhl_paket/includes/data-wf-settings.php:242
+msgid "Shipper Street Number (House Number)"
+msgstr "Numéro de rue de l’expéditeur (numéro de maison)"
+
+#: dhl_paket/includes/data-wf-settings.php:254
+msgid "Shipper State"
+msgstr "État de l’expéditeur"
+
+#: dhl_paket/includes/data-wf-settings.php:257
+msgid "Name of state. Field length must be less than or equal to 9."
+msgstr "Nom de l'état. La longueur du champ doit être inférieure ou égale à 9."
+
+#: dhl_paket/includes/data-wf-settings.php:260
+msgid "Export Terms Of Trade"
+msgstr "Importation Exportation Termes de l'échange"
+
+#: dhl_paket/includes/data-wf-settings.php:263
+msgid ""
+"terms of trades, i.e. incoterms codes like DDU, CIP et al. Field length must "
+"be = 3"
+msgstr ""
+"termes de métiers, c'est-à-dire les codes incoterms comme DDU, longueur du "
+"CIP et coll. champ doit être = 3"
+
+#: dhl_paket/includes/data-wf-settings.php:266
+msgid "Export Item Description"
+msgstr "L’exportation Item Description"
+
+#: dhl_paket/includes/data-wf-settings.php:269
+msgid "Description text for the document"
+msgstr "Texte de description du document"
+
+#: dhl_paket/includes/data-wf-settings.php:292
+msgid "Euro Paket"
+msgstr "Paket euro"
+
+#: dhl_paket/includes/data-wf-settings.php:294
+msgid "Check this if you have euro paket enabled in your account"
+msgstr "Cochez cette case si vous avez euro paket activé dans votre compte"
+
+#: dhl_paket/includes/data-wf-settings.php:300
+msgid "Packstation"
+msgstr "Packstation"
+
+#: dhl_paket/includes/data-wf-settings.php:302
+msgid "This will allow users to select packstations during checkout."
+msgstr ""
+"Cela permettra aux utilisateurs de sélectionner packstations lors de votre "
+"commande."
+
+#: wf_api_manager/class-wc-am-plugin-update.php:373
+#, php-format
+msgid ""
+"The license key for %s has expired. You can reactivate or purchase a license "
+"key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+
+#: wf_api_manager/class-wc-am-plugin-update.php:384
+#, php-format
+msgid ""
+"The subscription for %s is on-hold. You can reactivate the subscription from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+
+#: wf_api_manager/class-wc-am-plugin-update.php:395
+#, php-format
+msgid ""
+"The subscription for %s has been cancelled. You can renew the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>. A new "
+"license key will be emailed to you after your order has been completed."
+msgstr ""
+
+#: wf_api_manager/class-wc-am-plugin-update.php:406
+#, php-format
+msgid ""
+"The subscription for %s has expired. You can reactivate the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+
+#: wf_api_manager/class-wc-am-plugin-update.php:417
+#, php-format
+msgid ""
+"The subscription for %s has been suspended. You can reactivate the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+
+#: wf_api_manager/class-wc-am-plugin-update.php:428
+#, php-format
+msgid ""
+"The subscription for %s is still pending. You can check on the status of the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+
+#: wf_api_manager/class-wc-am-plugin-update.php:439
+#, php-format
+msgid ""
+"The subscription for %s has been placed in the trash and will be deleted "
+"soon. You can purchase a new subscription from your account <a href=\"%s\" "
+"target=\"_blank\">dashboard</a>."
+msgstr ""
+
+#: wf_api_manager/class-wc-am-plugin-update.php:450
+#, php-format
+msgid ""
+"A subscription for %s could not be found. You can purchase a subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+
+#: wf_api_manager/class-wc-am-plugin-update.php:461
+#, php-format
+msgid ""
+"A license key for %s could not be found. Maybe you forgot to enter a license "
+"key when setting up %s, or the key was deactivated in your account. You can "
+"reactivate license key at your plugin <a href=\"%s\" target=\"_blank"
+"\">settings page</a>."
+msgstr ""
+
+#: wf_api_manager/class-wc-am-plugin-update.php:472
+#, php-format
+msgid ""
+"Download permission for %s has been revoked possibly due to a license key or "
+"subscription expiring. You can reactivate or purchase a license key from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+
+#: wf_api_manager/class-wc-am-plugin-update.php:483
+#, php-format
+msgid ""
+"%s has not been activated. Go to the plugin <a href=\"%s\" target=\"_blank"
+"\">settings page</a> and enter the license key and license email to activate "
+"%s."
+msgstr ""
+
+#: wf_api_manager/class-wc-am-plugin-update.php:494
+#, php-format
+msgid ""
+"You changed the subscription for %s, so you will need to enter your new API "
+"License Key in the settings page. The License Key should have arrived in "
+"your email inbox, if not you can get it by logging into your account <a href="
+"\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
